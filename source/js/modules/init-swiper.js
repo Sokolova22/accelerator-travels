@@ -142,6 +142,35 @@ export const swiperFeedback = new Swiper('.feedback__swiper', {
   },
 });
 
+export const swiperGallery = new Swiper('.gallery__swiper', {
+
+  navigation: {
+    // enabled: true,
+    nextEl: '.gallery__swiper-button--next',
+    prevEl: '.gallery__swiper-button--prev',
+    disabledClass: 'gallery__swiper-button--disabled',
+  },
+
+  breakpoints: {
+    320: {
+      slidesPerView: 'auto',
+      spaceBetween: 3,
+    },
+
+    768: {
+      slidesPerView: 'auto',
+      spaceBetween: 5,
+    },
+
+    1440: {
+      slidesPerView: 'auto',
+      spaceBetween: 5,
+    },
+  },
+
+
+});
+
 window.addEventListener('DOMContentLoaded', () => {
   const resizableSwiper = (breakpoint, swiperClass, swiperSettings) => {
     let swiper;
@@ -180,35 +209,6 @@ window.addEventListener('DOMContentLoaded', () => {
         },
       }
   );
-
-
-});
-
-export const swiperGallery = new Swiper('.gallery__swiper', {
-
-  navigation: {
-    // enabled: true,
-    nextEl: '.gallery__swiper-button--next',
-    prevEl: '.gallery__swiper-button--prev',
-    disabledClass: 'gallery__swiper-button--disabled',
-  },
-
-  breakpoints: {
-    320: {
-      slidesPerView: 'auto',
-      spaceBetween: 3,
-    },
-
-    768: {
-      slidesPerView: 'auto',
-      spaceBetween: 5,
-    },
-
-    1440: {
-      slidesPerView: 'auto',
-      spaceBetween: 5,
-    },
-  },
 
 
 });
