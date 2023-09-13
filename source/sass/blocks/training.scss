@@ -303,12 +303,17 @@
 .training__slide-container p {
   margin: 0;
 
-
   @include text-xsmall;
 
   @include vp-1199 {
+    @include text-xsmall;
     margin-bottom: 0;
     margin-right: 0;
+  }
+
+  @include vp-767 {
+    @include text-xsmall;
+    margin-bottom: 0;
   }
 }
 
@@ -407,6 +412,7 @@
 
     @include vp-767 {
       @include text-xsmall;
+      margin-bottom: 0;
     }
   }
 }

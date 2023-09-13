@@ -4932,6 +4932,10 @@ dd {
   }
 
   .training__slide-container p {
+    font-family: "Montserrat", "Arial", sans-serif;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
     margin-bottom: 0;
     margin-right: 0;
   }
@@ -5386,6 +5390,11 @@ dd {
 }
 
 @media (max-width: 1199px) and (max-width: 1199px) {
+  .training__slide-container p {
+    font-size: 12px;
+    line-height: 18px;
+  }
+
   .feedback__slide p {
     font-size: 12px;
     line-height: 18px;
@@ -5744,6 +5753,14 @@ dd {
     margin-right: 10px;
   }
 
+  .training__slide-container p {
+    font-family: "Montserrat", "Arial", sans-serif;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+    margin-bottom: 0;
+  }
+
   .training__list {
     padding: 0;
     display: -webkit-box;
@@ -5780,6 +5797,7 @@ dd {
     font-weight: 400;
     font-size: 12px;
     line-height: 16px;
+    margin-bottom: 0;
   }
 
   .training__item svg {
@@ -6196,6 +6214,11 @@ dd {
 }
 
 @media (max-width: 767px) and (max-width: 1199px) {
+  .training__slide-container p {
+    font-size: 12px;
+    line-height: 18px;
+  }
+
   .training__item {
     font-size: 12px;
     line-height: 18px;
