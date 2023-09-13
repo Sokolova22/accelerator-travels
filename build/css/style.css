@@ -5741,7 +5741,7 @@ dd {
   }
 
   .training__swiper {
-    margin-bottom: 22px;
+    margin-bottom: 34px;
     min-width: 290px;
   }
 
@@ -6123,6 +6123,7 @@ dd {
     font-weight: 400;
     font-size: 16px;
     line-height: 24px;
+    margin-bottom: 0;
     width: 66%;
   }
 
