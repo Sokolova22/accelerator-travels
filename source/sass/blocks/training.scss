@@ -302,10 +302,14 @@
 
 .training__slide-container p {
   margin: 0;
-  margin-bottom: 0;
-  margin-right: 0;
+
 
   @include text-xsmall;
+
+  @include vp-1199 {
+    margin-bottom: 0;
+    margin-right: 0;
+  }
 }
 
 .training__list {
@@ -390,14 +394,15 @@
 
   p {
     margin: 0;
-    margin-bottom: 0;
-    margin-right: 0;
+
     margin-left: 1px;
 
     @include text-regular;
 
     @include vp-1199 {
       @include text-small;
+      margin-bottom: 0;
+      margin-right: 0;
     }
 
     @include vp-767 {

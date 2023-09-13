@@ -3305,8 +3305,6 @@ dd {
 
 .training__slide-container p {
   margin: 0;
-  margin-bottom: 0;
-  margin-right: 0;
   font-family: "Montserrat", "Arial", sans-serif;
   font-weight: 400;
   font-size: 12px;
@@ -3359,8 +3357,6 @@ dd {
 
 .training__item p {
   margin: 0;
-  margin-bottom: 0;
-  margin-right: 0;
   margin-left: 1px;
   font-family: "Montserrat", "Arial", sans-serif;
   font-weight: 400;
@@ -4367,7 +4363,6 @@ dd {
 .contacts__item p {
   padding: 0;
   margin: 0;
-  margin-bottom: 0;
   -ms-grid-column: 2;
   -ms-grid-column-span: 1;
   grid-column: 2/3;
@@ -4936,6 +4931,11 @@ dd {
     line-height: 18px;
   }
 
+  .training__slide-container p {
+    margin-bottom: 0;
+    margin-right: 0;
+  }
+
   .training__list {
     -ms-grid-columns: (2fr)[2];
     grid-template-columns: repeat(2, 2fr);
@@ -4978,6 +4978,8 @@ dd {
     font-weight: 400;
     font-size: 14px;
     line-height: 22px;
+    margin-bottom: 0;
+    margin-right: 0;
   }
 
   .training__item svg {
@@ -5329,6 +5331,7 @@ dd {
     font-weight: 400;
     font-size: 14px;
     line-height: 22px;
+    margin-bottom: 0;
   }
 
   .contacts__item svg {
