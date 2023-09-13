@@ -3359,6 +3359,8 @@ dd {
 
 .training__item p {
   margin: 0;
+  margin-bottom: 0;
+  margin-right: 0;
   margin-left: 1px;
   font-family: "Montserrat", "Arial", sans-serif;
   font-weight: 400;
