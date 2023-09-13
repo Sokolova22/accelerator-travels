@@ -4797,8 +4797,13 @@ dd {
   }
 
   .tours::after {
-    top: 929px;
-    background-position: top right -307px;
+    top: 958px;
+    width: 500px;
+    height: 1000px;
+    background-image: -webkit-image-set("../img/clouds/clouds-1-mobile.png" type("image/png"), "../img/clouds/clouds-1-mobile@2x.png" type("image/png"), "../img/clouds/clouds-1-mobile.webp" type("image/webp"), "../img/clouds/clouds-1-mobile@2x.webp" type("image/webp")), -webkit-image-set("../img/clouds/clouds-1-mobile.png" type("image/png"), "../img/clouds/clouds-1-mobile@2x.png" type("image/png"), "../img/clouds/clouds-1-mobile.webp" type("image/webp"), "../img/clouds/clouds-1-mobile@2x.webp" type("image/webp"));
+    background-image: image-set("../img/clouds/clouds-1-mobile.png" type("image/png"), "../img/clouds/clouds-1-mobile@2x.png" type("image/png"), "../img/clouds/clouds-1-mobile.webp" type("image/webp"), "../img/clouds/clouds-1-mobile@2x.webp" type("image/webp")), -webkit-image-set("../img/clouds/clouds-1-mobile.png" type("image/png"), "../img/clouds/clouds-1-mobile@2x.png" type("image/png"), "../img/clouds/clouds-1-mobile.webp" type("image/webp"), "../img/clouds/clouds-1-mobile@2x.webp" type("image/webp"));
+    background-size: cover;
+    background-position: top right -294px;
   }
 
   .tours::before {
@@ -5581,6 +5586,7 @@ dd {
     top: 705px;
     background-image: -webkit-image-set("../img/clouds/clouds-1-mobile.png" type("image/png"), "../img/clouds/clouds-1-mobile@2x.png" type("image/png"), "../img/clouds/clouds-1-mobile.webp" type("image/webp"), "../img/clouds/clouds-1-mobile@2x.webp" type("image/webp")), -webkit-image-set("../img/clouds/clouds-1-mobile.png" type("image/png"), "../img/clouds/clouds-1-mobile@2x.png" type("image/png"), "../img/clouds/clouds-1-mobile.webp" type("image/webp"), "../img/clouds/clouds-1-mobile@2x.webp" type("image/webp"));
     background-image: image-set("../img/clouds/clouds-1-mobile.png" type("image/png"), "../img/clouds/clouds-1-mobile@2x.png" type("image/png"), "../img/clouds/clouds-1-mobile.webp" type("image/webp"), "../img/clouds/clouds-1-mobile@2x.webp" type("image/webp")), -webkit-image-set("../img/clouds/clouds-1-mobile.png" type("image/png"), "../img/clouds/clouds-1-mobile@2x.png" type("image/png"), "../img/clouds/clouds-1-mobile.webp" type("image/webp"), "../img/clouds/clouds-1-mobile@2x.webp" type("image/webp"));
+    background-size: cover;
     background-position: top right -170px;
   }
 
@@ -5645,9 +5651,7 @@ dd {
     flex-basis: 50%;
     margin: 0;
     margin-bottom: 4px;
-    min-width: -webkit-min-content;
-    min-width: -moz-min-content;
-    min-width: min-content;
+    max-width: 97px;
   }
 
   .tours__container p:not(:last-of-type) {
@@ -5725,7 +5729,7 @@ dd {
   }
 
   .training__swiper {
-    margin-bottom: 33px;
+    margin-bottom: 22px;
     min-width: 290px;
   }
 

@@ -18,15 +18,9 @@
     background-position: top right;
 
     @include vp-1199 {
-      top: 929px;
-      background-position: top right -307px;
-    }
-
-    @include vp-767 {
-      width: 346px;
-      height: 595px;
-      top: 705px;
-      // left: 144px;
+      top: 958px;
+      width: 500px;
+      height: 1000px;
       background-image: image-set("../img/clouds/clouds-1-mobile.png" type("image/png"),
           "../img/clouds/clouds-1-mobile@2x.png" type("image/png"),
           "../img/clouds/clouds-1-mobile.webp" type("image/webp"),
@@ -35,6 +29,23 @@
           "../img/clouds/clouds-1-mobile@2x.png" type("image/png"),
           "../img/clouds/clouds-1-mobile.webp" type("image/webp"),
           "../img/clouds/clouds-1-mobile@2x.webp" type("image/webp"));
+      background-size: cover;
+      background-position: top right -294px;
+    }
+
+    @include vp-767 {
+      width: 346px;
+      height: 595px;
+      top: 705px;
+      background-image: image-set("../img/clouds/clouds-1-mobile.png" type("image/png"),
+          "../img/clouds/clouds-1-mobile@2x.png" type("image/png"),
+          "../img/clouds/clouds-1-mobile.webp" type("image/webp"),
+          "../img/clouds/clouds-1-mobile@2x.webp" type("image/webp")),
+        -webkit-image-set("../img/clouds/clouds-1-mobile.png" type("image/png"),
+          "../img/clouds/clouds-1-mobile@2x.png" type("image/png"),
+          "../img/clouds/clouds-1-mobile.webp" type("image/webp"),
+          "../img/clouds/clouds-1-mobile@2x.webp" type("image/webp"));
+      background-size: cover;
       background-position: top right -170px;
     }
   }
@@ -250,7 +261,8 @@
     flex-basis: 50%;
     margin: 0;
     margin-bottom: 4px;
-    min-width: min-content;
+    max-width: 97px;
+    // min-width: min-content;
   }
 
   svg {
