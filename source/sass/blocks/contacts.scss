@@ -196,13 +196,9 @@
 .contacts__map-wrapper {
   position: relative;
   margin-top: -100px;
-  // margin-left: 132px;
   margin-left: auto;
   max-width: 585px;
   max-height: 324px;
-
-  // grid-column: 2/3;
-  // grid-row: 2/ span 4;
 
   @include vp-1199 {
     margin-top: 0;
@@ -218,7 +214,7 @@
     right: 34%;
     width: 33px;
     height: 44px;
-    background-image: url("../../img/map/icon-marker.png");
+    background-image: url("../img/map/icon-marker.png");
     background-size: cover;
 
     @include vp-1199 {

@@ -194,38 +194,38 @@
   cursor: pointer;
 
   &--prev {
-    background-image: url("../../img/sprite/icon-arrow.svg");
+    background-image: url("../img/sprite/icon-arrow.svg");
     margin-right: 4px;
 
     @include hover-focus {
-      background-image: url("../../img/sprite/icon-arrow-hf.svg");
+      background-image: url("../img/sprite/icon-arrow-hf.svg");
       outline: none;
     }
 
     &:active {
-      background-image: url("../../img/sprite/icon-arrow-active.svg");
+      background-image: url("../img/sprite/icon-arrow-active.svg");
     }
 
     &:disabled {
-      background-image: url("../../img/sprite/icon-arrow-disabled.svg");
+      background-image: url("../img/sprite/icon-arrow-disabled.svg");
     }
   }
 
   &--next {
     rotate: 180deg;
-    background-image: url("../../img/sprite/icon-arrow.svg");
+    background-image: url("../img/sprite/icon-arrow.svg");
 
     @include hover-focus {
-      background-image: url("../../img/sprite/icon-arrow-hf.svg");
+      background-image: url("../img/sprite/icon-arrow-hf.svg");
       outline: none;
     }
 
     &:active {
-      background-image: url("../../img/sprite/icon-arrow-active.svg");
+      background-image: url("../img/sprite/icon-arrow-active.svg");
     }
 
     &:disabled {
-      background-image: url("../../img/sprite/icon-arrow-disabled.svg");
+      background-image: url("../img/sprite/icon-arrow-disabled.svg");
     }
   }
 }

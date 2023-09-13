@@ -126,38 +126,38 @@
   }
 
   &--prev {
-    background-image: url("../../img/sprite/icon-arrow.svg");
+    background-image: url("../img/sprite/icon-arrow.svg");
     margin-right: 4px;
 
     @include hover-focus {
-      background-image: url("../../img/sprite/icon-arrow-hf.svg");
+      background-image: url("../img/sprite/icon-arrow-hf.svg");
       outline: none;
     }
 
     @include active {
-      background-image: url("../../img/sprite/icon-arrow-active.svg");
+      background-image: url("../img/sprite/icon-arrow-active.svg");
     }
 
     &:disabled {
-      background-image: url("../../img/sprite/icon-arrow-disabled.svg");
+      background-image: url("../img/sprite/icon-arrow-disabled.svg");
     }
   }
 
   &--next {
     rotate: 180deg;
-    background-image: url("../../img/sprite/icon-arrow.svg");
+    background-image: url("../img/sprite/icon-arrow.svg");
 
     @include hover-focus {
-      background-image: url("../../img/sprite/icon-arrow-hf.svg");
+      background-image: url("../img/sprite/icon-arrow-hf.svg");
       outline: none;
     }
 
     @include active {
-      background-image: url("../../img/sprite/icon-arrow-active.svg");
+      background-image: url("../img/sprite/icon-arrow-active.svg");
     }
 
     &:disabled {
-      background-image: url("../../img/sprite/icon-arrow-disabled.svg");
+      background-image: url("../img/sprite/icon-arrow-disabled.svg");
     }
   }
 }
@@ -165,7 +165,7 @@
 .training__swiper-button--prev.training__swiper-button--disabled {
   width: 37px;
   height: 35px;
-  background-image: url("../../img/sprite/icon-arrow-disabled.svg");
+  background-image: url("../img/sprite/icon-arrow-disabled.svg");
   pointer-events: none;
 }
 
@@ -173,22 +173,17 @@
   width: 37px;
   height: 35px;
   rotate: 180deg;
-  background-image: url("../../img/sprite/icon-arrow-disabled.svg");
+  background-image: url("../img/sprite/icon-arrow-disabled.svg");
   pointer-events: none;
 }
 
 .training__swiper {
-
-
   position: relative;
   width: 100%;
   max-width: 1200px;
-  // height: auto;
-  // height: 100%;
   max-height: 480px;
   margin-top: -7px;
   margin-bottom: 51px;
-  // padding: 0px 10px 30px;
   cursor: auto;
   display: flex;
   flex-direction: column;

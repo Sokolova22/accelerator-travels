@@ -1,6 +1,5 @@
 .about {
   position: relative;
-  // max-width: 1440px;
   margin: 0 auto;
 
   &::after {
@@ -10,10 +9,10 @@
     right: 0;
     width: 840px;
     height: 280px;
-    background-image: image-set("../../img/clouds/clouds-3.png" type("image/png") 1x,
-        "../../img/clouds/clouds-3@2x.png" type("image/png") 2x,
-        "../../img/clouds/clouds-3.webp" type("image/webp") 1x,
-        "../../img/clouds/clouds-3@2x.webp" type("image/webp") 2x);
+    background-image: image-set("../img/clouds/clouds-3.png" type("image/png") 1x,
+        "../img/clouds/clouds-3@2x.png" type("image/png") 2x,
+        "../img/clouds/clouds-3.webp" type("image/webp") 1x,
+        "../img/clouds/clouds-3@2x.webp" type("image/webp") 2x);
     background-repeat: no-repeat;
     background-position: top right;
 
@@ -36,9 +35,7 @@
   }
 
   @include vp-767 {
-
     flex-direction: column;
-    // padding: 31px 15px 62px 0;
     padding: 379px 5px 29px 0;
   }
 }

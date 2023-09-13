@@ -22,8 +22,6 @@
   display: flex;
   justify-content: center;
   width: 100%;
-
-  // min-height: 800px;
   height: auto;
   align-items: stretch;
 
@@ -54,28 +52,28 @@
 
   &--01 {
     background-color: #6288b0;
-    background-image: image-set("../../img/hero/hero-1-desktop.jpg" type("image/jpg"),
-        "../../img/hero/hero-1-desktop@2x.jpg" type("image/jpg"),
-        "../../img/hero/hero-1-desktop.webp" type("image/webp"),
-        "../../img/hero/hero-1-desktop@2x.webp" type("image/webp"));
+    background-image: image-set("../img/hero/hero-1-desktop.jpg" type("image/jpg"),
+        "../img/hero/hero-1-desktop@2x.jpg" type("image/jpg"),
+        "../img/hero/hero-1-desktop.webp" type("image/webp"),
+        "../img/hero/hero-1-desktop@2x.webp" type("image/webp"));
     background-size: cover;
     background-position: top center;
   }
 
   &--02 {
     background-color: #6288b0;
-    background-image: image-set("../../img/hero/hero-card-2-desktop.png" type("image/png"),
-        "../../img/hero/hero-card-2-desktop@2x.png" type("image/png"),
-        "../../img/hero/hero-card-2-desktop.webp" type("image/webp"),
-        "../../img/hero/hero-card-2-desktop@2x.webp" type("image/webp")),
-      image-set("../../img/hero/hero-card-1-desktop.png" type("image/png"),
-        "../../img/hero/hero-card-1-desktop@2x.png" type("image/png"),
-        "../../img/hero/hero-card-1-desktop.webp" type("image/webp"),
-        "../../img/hero/hero-card-1-desktop@2x.webp" type("image/webp")),
-      image-set("../../img/hero/hero-2-desktop.jpg" type("image/jpg"),
-        "../../img/hero/hero-2-desktop@2x.jpg" type("image/jpg"),
-        "../../img/hero/hero-2-desktop.webp" type("image/webp"),
-        "../../img/hero/hero-2-desktop@2x.webp" type("image/webp"));
+    background-image: image-set("../img/hero/hero-card-2-desktop.png" type("image/png"),
+        "../img/hero/hero-card-2-desktop@2x.png" type("image/png"),
+        "../img/hero/hero-card-2-desktop.webp" type("image/webp"),
+        "../img/hero/hero-card-2-desktop@2x.webp" type("image/webp")),
+      image-set("../img/hero/hero-card-1-desktop.png" type("image/png"),
+        "../img/hero/hero-card-1-desktop@2x.png" type("image/png"),
+        "../img/hero/hero-card-1-desktop.webp" type("image/webp"),
+        "../img/hero/hero-card-1-desktop@2x.webp" type("image/webp")),
+      image-set("../img/hero/hero-2-desktop.jpg" type("image/jpg"),
+        "../img/hero/hero-2-desktop@2x.jpg" type("image/jpg"),
+        "../img/hero/hero-2-desktop.webp" type("image/webp"),
+        "../img/hero/hero-2-desktop@2x.webp" type("image/webp"));
 
     background-repeat: no-repeat;
     background-size: 277px 366px, 308px 407px, cover;
@@ -87,10 +85,10 @@
     }
 
     @include vp-767 {
-      background-image: image-set("../../img/hero/hero-2-desktop.jpg" type("image/jpg"),
-          "../../img/hero/hero-2-desktop@2x.jpg" type("image/jpg"),
-          "../../img/hero/hero-2-desktop.webp" type("image/webp"),
-          "../../img/hero/hero-2-desktop@2x.webp" type("image/webp"));
+      background-image: image-set("../img/hero/hero-2-desktop.jpg" type("image/jpg"),
+          "../img/hero/hero-2-desktop@2x.jpg" type("image/jpg"),
+          "../img/hero/hero-2-desktop.webp" type("image/webp"),
+          "../img/hero/hero-2-desktop@2x.webp" type("image/webp"));
       background-repeat: no-repeat;
       background-size: cover;
       background-position: top center;
@@ -99,10 +97,10 @@
 
   &--03 {
     background-color: #6288b0;
-    background-image: image-set("../../img/hero/hero-3-desktop.jpg" type("image/jpg"),
-        "../../img/hero/hero-3-desktop@2x.jpg" type("image/jpg"),
-        "../../img/hero/hero-3-desktop.webp" type("image/webp"),
-        "../../img/hero/hero-3-desktop@2x.webp" type("image/webp"));
+    background-image: image-set("../img/hero/hero-3-desktop.jpg" type("image/jpg"),
+        "../img/hero/hero-3-desktop@2x.jpg" type("image/jpg"),
+        "../img/hero/hero-3-desktop.webp" type("image/webp"),
+        "../img/hero/hero-3-desktop@2x.webp" type("image/webp"));
     background-repeat: no-repeat;
     background-size: cover;
     background-position: top center;
@@ -278,9 +276,7 @@
 
 .hero__video-wrapper {
   max-width: 482px;
-  // height: 100%;
   max-height: 317px;
-  // margin-top: -220px;
   position: absolute;
   z-index: 3;
   top: 301px;
@@ -304,11 +300,8 @@
 .hero__video {
 
   object-fit: cover;
-  // width: 100%;
-  // height: 100%;
   width: 482px;
   height: 317px;
-  // max-height: 100%;
   padding: 0;
   margin: 0 auto;
   position: relative;
@@ -330,7 +323,7 @@
   height: 56px;
   background-color: transparent;
   border: none;
-  background-image: url("../../img/sprite/icon-play.svg");
+  background-image: url("../img/sprite/icon-play.svg");
   background-repeat: no-repeat;
   background-size: 56px 56px;
   background-position: center center;
@@ -338,15 +331,15 @@
   outline: none;
 
   @include hover-focus {
-    background-image: url("../../img/sprite/icon-play-hf.svg");
+    background-image: url("../img/sprite/icon-play-hf.svg");
   }
 
   &:active {
-    background-image: url("../../img/sprite/icon-play-active.svg");
+    background-image: url("../img/sprite/icon-play-active.svg");
   }
 
   &:disabled {
-    background-image: url("../../img/sprite/icon-play-disabled.svg");
+    background-image: url("../img/sprite/icon-play-disabled.svg");
     pointer-events: none;
   }
 }

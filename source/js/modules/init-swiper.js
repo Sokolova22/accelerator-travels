@@ -3,10 +3,6 @@ import Swiper from '../vendor/swiper';
 let video = document.querySelector('.hero__video');
 let slides = document.querySelectorAll('.hero__slide');
 let audio = document.querySelector('.hero__audio');
-// let audioWrapper = document.querySelector('.hero__audio-wrapper');
-
-// const advantage = document.querySelector('.advantages__swiper');
-// const breakpoint = window.matchMedia('(min-width: 1200px)');
 
 export const swiperHero = new Swiper('.hero__swiper', {
   loop: true,
@@ -146,35 +142,6 @@ export const swiperFeedback = new Swiper('.feedback__swiper', {
   },
 });
 
-export const swiperGallery = new Swiper('.gallery__swiper', {
-
-  breakpoints: {
-    320: {
-      slidesPerView: 'auto',
-      spaceBetween: 3,
-    },
-
-    768: {
-      slidesPerView: 'auto',
-      spaceBetween: 5,
-    },
-
-    1440: {
-      slidesPerView: 'auto',
-      spaceBetween: 5,
-    },
-  },
-
-
-  navigation: {
-    nextEl: '.gallery__swiper-button--next',
-    prevEl: '.gallery__swiper-button--prev',
-    disabledClass: 'gallery__swiper-button--disabled',
-  },
-
-});
-
-
 window.addEventListener('DOMContentLoaded', () => {
   const resizableSwiper = (breakpoint, swiperClass, swiperSettings) => {
     let swiper;
@@ -217,9 +184,31 @@ window.addEventListener('DOMContentLoaded', () => {
 
 });
 
-// const advant = [
+export const swiperGallery = new Swiper('.gallery__swiper', {
 
-// ];
-// {
+  navigation: {
+    // enabled: true,
+    nextEl: '.gallery__swiper-button--next',
+    prevEl: '.gallery__swiper-button--prev',
+    disabledClass: 'gallery__swiper-button--disabled',
+  },
 
-// },
+  breakpoints: {
+    320: {
+      slidesPerView: 'auto',
+      spaceBetween: 3,
+    },
+
+    768: {
+      slidesPerView: 'auto',
+      spaceBetween: 5,
+    },
+
+    1440: {
+      slidesPerView: 'auto',
+      spaceBetween: 5,
+    },
+  },
+
+
+});
