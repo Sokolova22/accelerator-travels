@@ -1,4 +1,8 @@
 .modal {
+
+  outline: 2px solid rgba(255, 0, 0, 0.8);
+  outline-offset: -2px;
+
   position: fixed;
   top: 0;
   right: 0;
@@ -35,14 +39,10 @@
     display: flex;
     flex-shrink: 0;
     justify-content: center;
-    align-items: center;
+    align-items: flex-start;
     width: 100%;
     min-height: 100%;
-    padding: 60px 40px;
-
-    @include vp-767 {
-      padding: 60px 16px;
-    }
+    background-color: rgba(0, 0, 0, 0.6);
   }
 
   &__overlay {
@@ -58,9 +58,11 @@
 
   &__content {
     position: relative;
-
-    width: 600px;
-    padding: 40px;
+    // top: -30%;
+    // max-width: 100%;
+    // height: 100%;
+    // width: 600px;
+    // padding: 40px;
 
     background-color: $color-default-white;
 
@@ -116,4 +118,8 @@
 
     pointer-events: auto;
   }
+}
+
+.subtitle {
+  color: $black-to-right;
 }

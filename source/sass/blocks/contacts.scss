@@ -1,0 +1,266 @@
+.contacts__wrapper {
+  max-width: 1440px;
+  margin: 0 auto;
+  padding: 82px 120px 100px;
+  color: $color-primary-elephant;
+  display: flex;
+  flex-wrap: wrap;
+
+  @include vp-1199 {
+    width: 100%;
+    margin: 0 auto;
+    padding: 90px 45px 69px;
+  }
+
+  @include vp-767 {
+    padding: 67px 15px 28px;
+  }
+
+  h3 {
+    position: relative;
+    z-index: 2;
+    padding: 0;
+    margin: 0;
+    margin-bottom: 23px;
+
+    @include heading-h3;
+
+    flex-basis: 100%;
+
+    &::after {
+      position: absolute;
+      content: attr(data-heading);
+      left: 0;
+      bottom: 0;
+
+      @include heading-h2;
+
+      color: $color-primary-elephant;
+      opacity: 0.03;
+    }
+
+    @include vp-1199 {
+      margin-bottom: 18px;
+    }
+
+    @include vp-767 {
+      margin-bottom: 12px;
+    }
+  }
+
+  h6 {
+    @include heading-h6;
+
+    padding: 0;
+    margin: 0;
+  }
+
+  p {
+    padding: 0;
+    padding-right: 250px;
+    margin: 0;
+    margin-bottom: 50px;
+    flex-basis: 61%;
+
+    @include text-regular;
+
+    @include vp-1199 {
+      margin-bottom: 40px;
+      padding-right: 0;
+      flex-basis: 71%;
+    }
+
+    @include vp-767 {
+      margin-bottom: 30px;
+      flex-basis: 99%;
+    }
+  }
+
+  a {
+    color: $color-primary-elephant;
+  }
+}
+
+.contacts__list {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  flex-basis: 40%;
+
+  @include vp-1199 {
+    flex-direction: row;
+    flex-wrap: wrap;
+    flex-basis: 100%;
+    margin-bottom: 36px;
+  }
+
+  @include vp-767 {
+    margin-bottom: 30px;
+  }
+}
+
+.contacts__item {
+  position: relative;
+  padding-left: 56px;
+
+  @include vp-1199 {
+    padding-left: 35px;
+  }
+
+  h6 {
+    margin-bottom: 8px;
+
+    @include vp-1199 {
+      margin-bottom: 5px;
+    }
+  }
+
+  p {
+    padding: 0;
+    margin: 0;
+    grid-column: 2 / 3;
+    grid-row: 2 / 3;
+    width: max-content;
+
+    @include text-regular;
+
+    @include vp-1199 {
+      @include text-small;
+    }
+
+    @include vp-767 {
+      @include text-regular;
+      width: 66%;
+    }
+  }
+
+  svg {
+    position: absolute;
+    top: 11px;
+    left: -1px;
+
+    @include vp-1199 {
+      top: -2px;
+      left: -1px;
+    }
+  }
+
+  a {
+    padding: 0;
+    margin: 0;
+    width: max-content;
+
+    @include text-regular;
+
+    @include vp-1199 {
+      @include text-small;
+    }
+
+    @include vp-767 {
+      @include text-regular;
+    }
+  }
+}
+
+.contacts__item:not(:last-child) {
+  margin-bottom: 35px;
+
+  @include vp-1199 {
+    margin-bottom: 0;
+    margin-right: 43px;
+  }
+
+  @include vp-767 {
+    margin-bottom: 29px;
+    margin-right: 0;
+  }
+}
+
+.contacts__link {
+  @include hover-focus {
+    color: $color-resolution-blue;
+    outline: none;
+  }
+
+  &:active {
+    color: $color-navy-blue;
+  }
+
+  &:disabled {
+    color: rgba(2, 102, 193, 0.1);
+  }
+}
+
+.contacts__map-wrapper {
+  position: relative;
+  margin-top: -100px;
+  // margin-left: 132px;
+  margin-left: auto;
+  max-width: 585px;
+  max-height: 324px;
+
+  // grid-column: 2/3;
+  // grid-row: 2/ span 4;
+
+  @include vp-1199 {
+    margin-top: 0;
+    margin-left: 0;
+    max-width: 678px;
+    max-height: 340px;
+  }
+
+  &::after {
+    position: absolute;
+    content: "";
+    top: 57%;
+    right: 34%;
+    width: 33px;
+    height: 44px;
+    background-image: url("../../img/map/icon-marker.png");
+    background-size: cover;
+
+    @include vp-1199 {
+      top: 54%;
+      right: 37%;
+      width: 29px;
+      height: 38px;
+    }
+
+    @include vp-767 {
+      top: 58%;
+      right: 23%;
+      width: 19px;
+      height: 26px;
+    }
+  }
+
+  img {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    object-fit: cover;
+  }
+}
+
+.contacts__map {
+  position: absolute;
+  z-index: 5;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  max-width: 585px;
+  max-height: 324px;
+
+  @include vp-1199 {
+    max-width: 678px;
+    max-height: 340px;
+  }
+
+  iframe {
+    width: 100%;
+    height: 100%;
+  }
+}

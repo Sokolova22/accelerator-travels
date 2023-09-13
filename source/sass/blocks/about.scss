@@ -1,0 +1,135 @@
+.about {
+  position: relative;
+  // max-width: 1440px;
+  margin: 0 auto;
+
+  &::after {
+    position: absolute;
+    content: "";
+    top: -158px;
+    right: 0;
+    width: 840px;
+    height: 280px;
+    background-image: image-set("../../img/clouds/clouds-3.png" type("image/png") 1x,
+        "../../img/clouds/clouds-3@2x.png" type("image/png") 2x,
+        "../../img/clouds/clouds-3.webp" type("image/webp") 1x,
+        "../../img/clouds/clouds-3@2x.webp" type("image/webp") 2x);
+    background-repeat: no-repeat;
+    background-position: top right;
+
+    @include vp-1199 {
+      display: none;
+    }
+  }
+}
+
+.about__wrapper {
+  display: flex;
+  position: relative;
+  max-width: 1440px;
+  margin: 0 auto;
+  z-index: 2;
+  padding: 43px 120px 91px 0;
+
+  @include vp-1199 {
+    padding: 0 45px 81px 0;
+  }
+
+  @include vp-767 {
+
+    flex-direction: column;
+    // padding: 31px 15px 62px 0;
+    padding: 379px 5px 29px 0;
+  }
+}
+
+.about__image {
+  position: absolute;
+  z-index: 1;
+  top: 8px;
+  left: 0;
+
+  @include vp-1199 {
+    top: 5px;
+    left: 0;
+    max-width: 483px;
+    max-height: 402px;
+    flex-basis: 49%;
+  }
+
+  @include vp-767 {
+    top: -70px;
+    left: 0;
+  }
+}
+
+.about__description {
+  position: relative;
+  z-index: 2;
+  flex-basis: 44.5%;
+  margin-left: auto;
+  color: $color-primary-elephant;
+
+  @include vp-1199 {
+    margin-left: auto;
+    flex-basis: 45%;
+  }
+
+  @include vp-767 {
+    margin-left: 0;
+    padding-left: 15px;
+  }
+
+  h3 {
+    position: relative;
+
+    @include heading-h3;
+
+    color: $color-primary-elephant;
+    padding: 0;
+    margin: 0;
+    margin-bottom: 56px;
+
+    @include vp-1199 {
+      margin-bottom: 35px;
+    }
+
+
+    &::after {
+      position: absolute;
+      content: attr(data-heading);
+      left: 0;
+      bottom: 0;
+
+      @include heading-h2;
+
+      color: $color-primary-elephant;
+      opacity: 0.03;
+    }
+  }
+
+  h5 {
+    @include heading-h5;
+
+    padding: 0;
+    margin: 0;
+    margin-bottom: 16px;
+  }
+
+  p {
+    @include text-small;
+    padding: 0;
+    margin: 0;
+    margin-bottom: 30px;
+
+    @include vp-1199 {
+      margin-bottom: 6px;
+    }
+
+    @include vp-767 {
+      @include text-regular;
+
+      margin-bottom: 43px;
+    }
+  }
+}

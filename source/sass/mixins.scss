@@ -1,8 +1,9 @@
-@mixin retina {
-  @media (min-resolution: $retina-dpi), (min-resolution: $retina-dppx) {
-    @content;
-  }
-}
+// @mixin retina {
+//   @media (min-resolution: $retina-dpi),
+//   (min-resolution: $retina-dppx) {
+//     @content;
+//   }
+// }
 
 @mixin hover {
   @media (hover: hover) {
@@ -56,6 +57,12 @@
   }
 }
 
+@mixin vp-1199 {
+  @media (max-width: ($vp-1200 - 1px)) {
+    @content;
+  }
+}
+
 @mixin vp-1023 {
   @media (max-width: ($vp-1024 - 1px)) {
     @content;
@@ -74,6 +81,228 @@
   }
 }
 
+// Heading
+@mixin heading-h1 {
+  font-family: "Montserrat", "Arial", sans-serif;
+  font-weight: 800;
+  font-size: 77px;
+  line-height: 77px;
+
+  @include vp-1199 {
+    font-size: 56px;
+    line-height: 56px;
+  }
+
+  @include vp-767 {
+    font-size: 30px;
+    line-height: 30px;
+  }
+}
+
+@mixin heading-h2 {
+  font-family: "Montserrat", "Arial", sans-serif;
+  font-weight: 800;
+  font-size: 55px;
+  line-height: 55px;
+
+  @include vp-1199 {
+    font-size: 40px;
+    line-height: 40px;
+  }
+
+  @include vp-767 {
+    font-size: 26px;
+    line-height: 26px;
+  }
+}
+
+@mixin heading-h3 {
+  font-family: "Montserrat", "Arial", sans-serif;
+  font-weight: 800;
+  font-size: 35px;
+  line-height: 35px;
+
+  @include vp-1199 {
+    font-size: 25px;
+    line-height: 25px;
+  }
+
+  @include vp-767 {
+    font-size: 22px;
+    line-height: 22px;
+  }
+}
+
+@mixin heading-h4 {
+  font-family: "Montserrat", "Arial", sans-serif;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 28px;
+
+  @include vp-767 {
+    font-size: 20px;
+    line-height: 24px;
+  }
+}
+
+@mixin heading-h5 {
+  font-family: "Montserrat", "Arial", sans-serif;
+  font-weight: 700;
+  font-size: 21px;
+  line-height: 21px;
+
+  @include vp-1199 {
+    font-size: 18px;
+    line-height: 18px;
+  }
+
+  @include vp-767 {
+    font-size: 16px;
+    line-height: 16px;
+  }
+}
+
+@mixin heading-h6 {
+  font-family: "Montserrat", "Arial", sans-serif;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 18px;
+
+  @include vp-1199 {
+    font-size: 16px;
+    line-height: 16px;
+  }
+
+  @include vp-767 {
+    font-size: 14px;
+    line-height: 14px;
+  }
+}
+
+@mixin heading-h7 {
+  font-family: "Montserrat", "Arial", sans-serif;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 16px;
+}
+
+//Text
+@mixin text-big {
+  font-family: "Montserrat", "Arial", sans-serif;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 24px;
+
+  @include vp-767 {
+    font-size: 15px;
+    line-height: 20px;
+  }
+}
+
+@mixin text-regular {
+  font-family: "Montserrat", "Arial", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+
+  @include vp-767 {
+    font-size: 14px;
+    line-height: 20px;
+  }
+}
+
+@mixin text-small {
+  font-family: "Montserrat", "Arial", sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 22px;
+}
+
+@mixin text-xsmall {
+  font-family: "Montserrat", "Arial", sans-serif;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 16px;
+
+  @include vp-1199 {
+    font-size: 12px;
+    line-height: 18px;
+  }
+}
+
+//Captions
+
+@mixin caption-big {
+  font-family: "Montserrat", "Arial", sans-serif;
+  font-weight: 700;
+  font-size: 13px;
+  line-height: 13px;
+
+  @include vp-767 {
+    font-size: 12px;
+    line-height: 12px;
+  }
+}
+
+@mixin caption-medium {
+  font-family: "Montserrat", "Arial", sans-serif;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 12px;
+}
+
+@mixin caption-small {
+  font-family: "Montserrat", "Arial", sans-serif;
+  font-weight: 300;
+  font-size: 12px;
+  line-height: 12px;
+}
+
+
+//Buttons
+
+@mixin button-big {
+  font-family: "Montserrat", "Arial", sans-serif;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 16px;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+
+  @include vp-767 {
+    font-size: 14px;
+    line-height: 14px;
+  }
+}
+
+@mixin button-regular {
+  font-family: "Montserrat", "Arial", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 16px;
+  letter-spacing: 0.04em;
+}
+
+@mixin inputs-navigation {
+  font-family: "Montserrat", "Arial", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 16px;
+}
+
+@mixin inputs-menu {
+  font-family: "Montserrat", "Arial", sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 14px;
+}
+
+@mixin inputs-nav {
+  font-family: "Montserrat", "Arial", sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 14px;
+}
 // Mobile first
 
 // @mixin vp-375 {
