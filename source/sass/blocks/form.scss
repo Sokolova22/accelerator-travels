@@ -7,6 +7,7 @@
       "../img/form/bg-form-desktop.webp" type("image/webp") 1x,
       "../img/form/bg-form-desktop@2x.webp" type("image/webp") 2x);
   background-size: cover;
+  background-position: top center;
 
   @include vp-1199 {
     max-width: 1199px;

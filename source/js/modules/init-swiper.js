@@ -114,42 +114,8 @@ export const swiperTraining = new Swiper('.training__swiper', {
 });
 
 
-export const swiperFeedback = new Swiper('.feedback__swiper', {
-  simulateTouch: false,
-
-  breakpoints: {
-    320: {
-      slidesPerView: 1,
-
-    },
-
-    768: {
-      slidesPerView: 2,
-      spaceBetween: 30,
-    },
-
-    1440: {
-      slidesPerView: 2,
-      spaceBetween: 30,
-    },
-  },
-
-
-  navigation: {
-    nextEl: '.feedback__swiper-button--next',
-    prevEl: '.feedback__swiper-button--prev',
-    disabledClass: 'feedback__swiper-button--disabled',
-  },
-});
-
 export const swiperGallery = new Swiper('.gallery__swiper', {
-
-  navigation: {
-    // enabled: true,
-    nextEl: '.gallery__swiper-button--next',
-    prevEl: '.gallery__swiper-button--prev',
-    disabledClass: 'gallery__swiper-button--disabled',
-  },
+  simulateTouch: true,
 
   breakpoints: {
     320: {
@@ -168,6 +134,11 @@ export const swiperGallery = new Swiper('.gallery__swiper', {
     },
   },
 
+  navigation: {
+    nextEl: '.gallery__swiper-button--next',
+    prevEl: '.gallery__swiper-button--prev',
+    disabledClass: 'gallery__swiper-button--disabled',
+  },
 
 });
 
@@ -211,4 +182,32 @@ window.addEventListener('DOMContentLoaded', () => {
   );
 
 
+});
+
+export const swiperFeedback = new Swiper('.feedback__swiper', {
+  simulateTouch: false,
+
+  breakpoints: {
+    320: {
+      slidesPerView: 1,
+
+    },
+
+    768: {
+      slidesPerView: 2,
+      spaceBetween: 30,
+    },
+
+    1440: {
+      slidesPerView: 2,
+      spaceBetween: 30,
+    },
+  },
+
+
+  navigation: {
+    nextEl: '.feedback__swiper-button--next',
+    prevEl: '.feedback__swiper-button--prev',
+    disabledClass: 'feedback__swiper-button--disabled',
+  },
 });
