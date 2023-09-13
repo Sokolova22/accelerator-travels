@@ -8,10 +8,14 @@
     left: 0;
     width: 1170px;
     height: 391px;
-    background-image: image-set("../img/clouds/clouds-4.png" type("image/png") 1x,
-        "../img/clouds/clouds-4@2x.png" type("image/png") 2x,
-        "../img/clouds/clouds-4.webp" type("image/webp") 1x,
-        "../img/clouds/clouds-4@2x.webp" type("image/webp") 2x);
+    background-image: image-set("../img/clouds/clouds-4.png" type("image/png"),
+        "../img/clouds/clouds-4@2x.png" type("image/png"),
+        "../img/clouds/clouds-4.webp" type("image/webp"),
+        "../img/clouds/clouds-4@2x.webp" type("image/webp")),
+      -webkit-image-set("../img/clouds/clouds-4.png" type("image/png"),
+        "../img/clouds/clouds-4@2x.png" type("image/png"),
+        "../img/clouds/clouds-4.webp" type("image/webp"),
+        "../img/clouds/clouds-4@2x.webp" type("image/webp"));
     background-repeat: no-repeat;
     background-position: top left;
 
@@ -28,10 +32,14 @@
     right: 0;
     width: 788px;
     height: 263px;
-    background-image: image-set("../img/clouds/clouds-5.png" type("image/png") 1x,
-        "../img/clouds/clouds-5@2x.png" type("image/png") 2x,
-        "../img/clouds/clouds-5.webp" type("image/webp") 1x,
-        "../img/clouds/clouds-5@2x.webp" type("image/webp") 2x);
+    background-image: image-set("../img/clouds/clouds-5.png" type("image/png"),
+        "../img/clouds/clouds-5@2x.png" type("image/png"),
+        "../img/clouds/clouds-5.webp" type("image/webp"),
+        "../img/clouds/clouds-5@2x.webp" type("image/webp")),
+      -webkit-image-set("../img/clouds/clouds-5.png" type("image/png"),
+        "../img/clouds/clouds-5@2x.png" type("image/png"),
+        "../img/clouds/clouds-5.webp" type("image/webp"),
+        "../img/clouds/clouds-5@2x.webp" type("image/webp"));
     background-repeat: no-repeat;
     background-position: top right;
 

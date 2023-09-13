@@ -2293,16 +2293,16 @@ button,
 
 .hero__slide--01 {
   background-color: #6288b0;
-  background-image: -webkit-image-set("../img/hero/hero-1-desktop.jpg" type("image/jpg"), "../img/hero/hero-1-desktop@2x.jpg" type("image/jpg"), "../img/hero/hero-1-desktop.webp" type("image/webp"), "../img/hero/hero-1-desktop@2x.webp" type("image/webp"));
-  background-image: image-set("../img/hero/hero-1-desktop.jpg" type("image/jpg"), "../img/hero/hero-1-desktop@2x.jpg" type("image/jpg"), "../img/hero/hero-1-desktop.webp" type("image/webp"), "../img/hero/hero-1-desktop@2x.webp" type("image/webp"));
+  background-image: -webkit-image-set("../img/hero/hero-1-desktop.jpg" type("image/jpg"), "../img/hero/hero-1-desktop@2x.jpg" type("image/jpg"), "../img/hero/hero-1-desktop.webp" type("image/webp"), "../img/hero/hero-1-desktop@2x.webp" type("image/webp")), -webkit-image-set("../img/hero/hero-1-desktop.jpg" type("image/jpg"), "../img/hero/hero-1-desktop@2x.jpg" type("image/jpg"), "../img/hero/hero-1-desktop.webp" type("image/webp"), "../img/hero/hero-1-desktop@2x.webp" type("image/webp"));
+  background-image: image-set("../img/hero/hero-1-desktop.jpg" type("image/jpg"), "../img/hero/hero-1-desktop@2x.jpg" type("image/jpg"), "../img/hero/hero-1-desktop.webp" type("image/webp"), "../img/hero/hero-1-desktop@2x.webp" type("image/webp")), -webkit-image-set("../img/hero/hero-1-desktop.jpg" type("image/jpg"), "../img/hero/hero-1-desktop@2x.jpg" type("image/jpg"), "../img/hero/hero-1-desktop.webp" type("image/webp"), "../img/hero/hero-1-desktop@2x.webp" type("image/webp"));
   background-size: cover;
   background-position: top center;
 }
 
 .hero__slide--02 {
   background-color: #6288b0;
-  background-image: -webkit-image-set("../img/hero/hero-card-2-desktop.png" type("image/png"), "../img/hero/hero-card-2-desktop@2x.png" type("image/png"), "../img/hero/hero-card-2-desktop.webp" type("image/webp"), "../img/hero/hero-card-2-desktop@2x.webp" type("image/webp")), -webkit-image-set("../img/hero/hero-card-1-desktop.png" type("image/png"), "../img/hero/hero-card-1-desktop@2x.png" type("image/png"), "../img/hero/hero-card-1-desktop.webp" type("image/webp"), "../img/hero/hero-card-1-desktop@2x.webp" type("image/webp")), -webkit-image-set("../img/hero/hero-2-desktop.jpg" type("image/jpg"), "../img/hero/hero-2-desktop@2x.jpg" type("image/jpg"), "../img/hero/hero-2-desktop.webp" type("image/webp"), "../img/hero/hero-2-desktop@2x.webp" type("image/webp"));
-  background-image: image-set("../img/hero/hero-card-2-desktop.png" type("image/png"), "../img/hero/hero-card-2-desktop@2x.png" type("image/png"), "../img/hero/hero-card-2-desktop.webp" type("image/webp"), "../img/hero/hero-card-2-desktop@2x.webp" type("image/webp")), image-set("../img/hero/hero-card-1-desktop.png" type("image/png"), "../img/hero/hero-card-1-desktop@2x.png" type("image/png"), "../img/hero/hero-card-1-desktop.webp" type("image/webp"), "../img/hero/hero-card-1-desktop@2x.webp" type("image/webp")), image-set("../img/hero/hero-2-desktop.jpg" type("image/jpg"), "../img/hero/hero-2-desktop@2x.jpg" type("image/jpg"), "../img/hero/hero-2-desktop.webp" type("image/webp"), "../img/hero/hero-2-desktop@2x.webp" type("image/webp"));
+  background-image: -webkit-image-set("../img/hero/hero-card-2-desktop.png" type("image/png"), "../img/hero/hero-card-2-desktop@2x.png" type("image/png"), "../img/hero/hero-card-2-desktop.webp" type("image/webp"), "../img/hero/hero-card-2-desktop@2x.webp" type("image/webp")), -webkit-image-set("../img/hero/hero-card-2-desktop.png" type("image/png"), "../img/hero/hero-card-2-desktop@2x.png" type("image/png"), "../img/hero/hero-card-2-desktop.webp" type("image/webp"), "../img/hero/hero-card-2-desktop@2x.webp" type("image/webp")), -webkit-image-set("../img/hero/hero-card-1-desktop.png" type("image/png"), "../img/hero/hero-card-1-desktop@2x.png" type("image/png"), "../img/hero/hero-card-1-desktop.webp" type("image/webp"), "../img/hero/hero-card-1-desktop@2x.webp" type("image/webp")), -webkit-image-set("../img/hero/hero-card-1-desktop.png" type("image/png"), "../img/hero/hero-card-1-desktop@2x.png" type("image/png"), "../img/hero/hero-card-1-desktop.webp" type("image/webp"), "../img/hero/hero-card-1-desktop@2x.webp" type("image/webp")), -webkit-image-set("../img/hero/hero-2-desktop.jpg" type("image/jpg"), "../img/hero/hero-2-desktop@2x.jpg" type("image/jpg"), "../img/hero/hero-2-desktop.webp" type("image/webp"), "../img/hero/hero-2-desktop@2x.webp" type("image/webp")), -webkit-image-set("../img/hero/hero-2-desktop.jpg" type("image/jpg"), "../img/hero/hero-2-desktop@2x.jpg" type("image/jpg"), "../img/hero/hero-2-desktop.webp" type("image/webp"), "../img/hero/hero-2-desktop@2x.webp" type("image/webp"));
+  background-image: image-set("../img/hero/hero-card-2-desktop.png" type("image/png"), "../img/hero/hero-card-2-desktop@2x.png" type("image/png"), "../img/hero/hero-card-2-desktop.webp" type("image/webp"), "../img/hero/hero-card-2-desktop@2x.webp" type("image/webp")), -webkit-image-set("../img/hero/hero-card-2-desktop.png" type("image/png"), "../img/hero/hero-card-2-desktop@2x.png" type("image/png"), "../img/hero/hero-card-2-desktop.webp" type("image/webp"), "../img/hero/hero-card-2-desktop@2x.webp" type("image/webp")), image-set("../img/hero/hero-card-1-desktop.png" type("image/png"), "../img/hero/hero-card-1-desktop@2x.png" type("image/png"), "../img/hero/hero-card-1-desktop.webp" type("image/webp"), "../img/hero/hero-card-1-desktop@2x.webp" type("image/webp")), -webkit-image-set("../img/hero/hero-card-1-desktop.png" type("image/png"), "../img/hero/hero-card-1-desktop@2x.png" type("image/png"), "../img/hero/hero-card-1-desktop.webp" type("image/webp"), "../img/hero/hero-card-1-desktop@2x.webp" type("image/webp")), image-set("../img/hero/hero-2-desktop.jpg" type("image/jpg"), "../img/hero/hero-2-desktop@2x.jpg" type("image/jpg"), "../img/hero/hero-2-desktop.webp" type("image/webp"), "../img/hero/hero-2-desktop@2x.webp" type("image/webp")), -webkit-image-set("../img/hero/hero-2-desktop.jpg" type("image/jpg"), "../img/hero/hero-2-desktop@2x.jpg" type("image/jpg"), "../img/hero/hero-2-desktop.webp" type("image/webp"), "../img/hero/hero-2-desktop@2x.webp" type("image/webp"));
   background-repeat: no-repeat;
   background-size: 277px 366px, 308px 407px, cover;
   background-position: top 68% right 10.5%, top 51% right 19.5%, top center;
@@ -2310,8 +2310,8 @@ button,
 
 .hero__slide--03 {
   background-color: #6288b0;
-  background-image: -webkit-image-set("../img/hero/hero-3-desktop.jpg" type("image/jpg"), "../img/hero/hero-3-desktop@2x.jpg" type("image/jpg"), "../img/hero/hero-3-desktop.webp" type("image/webp"), "../img/hero/hero-3-desktop@2x.webp" type("image/webp"));
-  background-image: image-set("../img/hero/hero-3-desktop.jpg" type("image/jpg"), "../img/hero/hero-3-desktop@2x.jpg" type("image/jpg"), "../img/hero/hero-3-desktop.webp" type("image/webp"), "../img/hero/hero-3-desktop@2x.webp" type("image/webp"));
+  background-image: -webkit-image-set("../img/hero/hero-3-desktop.jpg" type("image/jpg"), "../img/hero/hero-3-desktop@2x.jpg" type("image/jpg"), "../img/hero/hero-3-desktop.webp" type("image/webp"), "../img/hero/hero-3-desktop@2x.webp" type("image/webp")), -webkit-image-set("../img/hero/hero-3-desktop.jpg" type("image/jpg"), "../img/hero/hero-3-desktop@2x.jpg" type("image/jpg"), "../img/hero/hero-3-desktop.webp" type("image/webp"), "../img/hero/hero-3-desktop@2x.webp" type("image/webp"));
+  background-image: image-set("../img/hero/hero-3-desktop.jpg" type("image/jpg"), "../img/hero/hero-3-desktop@2x.jpg" type("image/jpg"), "../img/hero/hero-3-desktop.webp" type("image/webp"), "../img/hero/hero-3-desktop@2x.webp" type("image/webp")), -webkit-image-set("../img/hero/hero-3-desktop.jpg" type("image/jpg"), "../img/hero/hero-3-desktop@2x.jpg" type("image/jpg"), "../img/hero/hero-3-desktop.webp" type("image/webp"), "../img/hero/hero-3-desktop@2x.webp" type("image/webp"));
   background-repeat: no-repeat;
   background-size: cover;
   background-position: top center;
@@ -2719,8 +2719,8 @@ button,
   right: 0;
   width: 602px;
   height: 1364px;
-  background-image: -webkit-image-set("../img/clouds/clouds-1.png" type("image/png") 1x, "../img/clouds/clouds-1@2x.png" type("image/png") 2x, "../img/clouds/clouds-1.webp" type("image/webp") 1x, "../img/clouds/clouds-1@2x.webp" type("image/webp") 2x);
-  background-image: image-set("../img/clouds/clouds-1.png" type("image/png") 1x, "../img/clouds/clouds-1@2x.png" type("image/png") 2x, "../img/clouds/clouds-1.webp" type("image/webp") 1x, "../img/clouds/clouds-1@2x.webp" type("image/webp") 2x);
+  background-image: -webkit-image-set("../img/clouds/clouds-1.png" type("image/png"), "../img/clouds/clouds-1@2x.png" type("image/png"), "../img/clouds/clouds-1.webp" type("image/webp"), "../img/clouds/clouds-1@2x.webp" type("image/webp")), -webkit-image-set("../img/clouds/clouds-1.png" type("image/png"), "../img/clouds/clouds-1@2x.png" type("image/png"), "../img/clouds/clouds-1.webp" type("image/webp"), "../img/clouds/clouds-1@2x.webp" type("image/webp"));
+  background-image: image-set("../img/clouds/clouds-1.png" type("image/png"), "../img/clouds/clouds-1@2x.png" type("image/png"), "../img/clouds/clouds-1.webp" type("image/webp"), "../img/clouds/clouds-1@2x.webp" type("image/webp")), -webkit-image-set("../img/clouds/clouds-1.png" type("image/png"), "../img/clouds/clouds-1@2x.png" type("image/png"), "../img/clouds/clouds-1.webp" type("image/webp"), "../img/clouds/clouds-1@2x.webp" type("image/webp"));
   background-repeat: no-repeat;
   background-position: top right;
 }
@@ -3397,8 +3397,8 @@ dd {
   right: 0;
   width: 840px;
   height: 280px;
-  background-image: -webkit-image-set("../img/clouds/clouds-3.png" type("image/png") 1x, "../img/clouds/clouds-3@2x.png" type("image/png") 2x, "../img/clouds/clouds-3.webp" type("image/webp") 1x, "../img/clouds/clouds-3@2x.webp" type("image/webp") 2x);
-  background-image: image-set("../img/clouds/clouds-3.png" type("image/png") 1x, "../img/clouds/clouds-3@2x.png" type("image/png") 2x, "../img/clouds/clouds-3.webp" type("image/webp") 1x, "../img/clouds/clouds-3@2x.webp" type("image/webp") 2x);
+  background-image: -webkit-image-set("../img/clouds/clouds-3.png" type("image/png"), "../img/clouds/clouds-3@2x.png" type("image/png"), "../img/clouds/clouds-3.webp" type("image/webp"), "../img/clouds/clouds-3@2x.webp" type("image/webp")), -webkit-image-set("../img/clouds/clouds-3.png" type("image/png"), "../img/clouds/clouds-3@2x.png" type("image/png"), "../img/clouds/clouds-3.webp" type("image/webp"), "../img/clouds/clouds-3@2x.webp" type("image/webp"));
+  background-image: image-set("../img/clouds/clouds-3.png" type("image/png"), "../img/clouds/clouds-3@2x.png" type("image/png"), "../img/clouds/clouds-3.webp" type("image/webp"), "../img/clouds/clouds-3@2x.webp" type("image/webp")), -webkit-image-set("../img/clouds/clouds-3.png" type("image/png"), "../img/clouds/clouds-3@2x.png" type("image/png"), "../img/clouds/clouds-3.webp" type("image/webp"), "../img/clouds/clouds-3@2x.webp" type("image/webp"));
   background-repeat: no-repeat;
   background-position: top right;
 }
@@ -3486,8 +3486,8 @@ dd {
   left: 0;
   width: 1170px;
   height: 391px;
-  background-image: -webkit-image-set("../img/clouds/clouds-4.png" type("image/png") 1x, "../img/clouds/clouds-4@2x.png" type("image/png") 2x, "../img/clouds/clouds-4.webp" type("image/webp") 1x, "../img/clouds/clouds-4@2x.webp" type("image/webp") 2x);
-  background-image: image-set("../img/clouds/clouds-4.png" type("image/png") 1x, "../img/clouds/clouds-4@2x.png" type("image/png") 2x, "../img/clouds/clouds-4.webp" type("image/webp") 1x, "../img/clouds/clouds-4@2x.webp" type("image/webp") 2x);
+  background-image: -webkit-image-set("../img/clouds/clouds-4.png" type("image/png"), "../img/clouds/clouds-4@2x.png" type("image/png"), "../img/clouds/clouds-4.webp" type("image/webp"), "../img/clouds/clouds-4@2x.webp" type("image/webp")), -webkit-image-set("../img/clouds/clouds-4.png" type("image/png"), "../img/clouds/clouds-4@2x.png" type("image/png"), "../img/clouds/clouds-4.webp" type("image/webp"), "../img/clouds/clouds-4@2x.webp" type("image/webp"));
+  background-image: image-set("../img/clouds/clouds-4.png" type("image/png"), "../img/clouds/clouds-4@2x.png" type("image/png"), "../img/clouds/clouds-4.webp" type("image/webp"), "../img/clouds/clouds-4@2x.webp" type("image/webp")), -webkit-image-set("../img/clouds/clouds-4.png" type("image/png"), "../img/clouds/clouds-4@2x.png" type("image/png"), "../img/clouds/clouds-4.webp" type("image/webp"), "../img/clouds/clouds-4@2x.webp" type("image/webp"));
   background-repeat: no-repeat;
   background-position: top left;
 }
@@ -3499,8 +3499,8 @@ dd {
   right: 0;
   width: 788px;
   height: 263px;
-  background-image: -webkit-image-set("../img/clouds/clouds-5.png" type("image/png") 1x, "../img/clouds/clouds-5@2x.png" type("image/png") 2x, "../img/clouds/clouds-5.webp" type("image/webp") 1x, "../img/clouds/clouds-5@2x.webp" type("image/webp") 2x);
-  background-image: image-set("../img/clouds/clouds-5.png" type("image/png") 1x, "../img/clouds/clouds-5@2x.png" type("image/png") 2x, "../img/clouds/clouds-5.webp" type("image/webp") 1x, "../img/clouds/clouds-5@2x.webp" type("image/webp") 2x);
+  background-image: -webkit-image-set("../img/clouds/clouds-5.png" type("image/png"), "../img/clouds/clouds-5@2x.png" type("image/png"), "../img/clouds/clouds-5.webp" type("image/webp"), "../img/clouds/clouds-5@2x.webp" type("image/webp")), -webkit-image-set("../img/clouds/clouds-5.png" type("image/png"), "../img/clouds/clouds-5@2x.png" type("image/png"), "../img/clouds/clouds-5.webp" type("image/webp"), "../img/clouds/clouds-5@2x.webp" type("image/webp"));
+  background-image: image-set("../img/clouds/clouds-5.png" type("image/png"), "../img/clouds/clouds-5@2x.png" type("image/png"), "../img/clouds/clouds-5.webp" type("image/webp"), "../img/clouds/clouds-5@2x.webp" type("image/webp")), -webkit-image-set("../img/clouds/clouds-5.png" type("image/png"), "../img/clouds/clouds-5@2x.png" type("image/png"), "../img/clouds/clouds-5.webp" type("image/webp"), "../img/clouds/clouds-5@2x.webp" type("image/webp"));
   background-repeat: no-repeat;
   background-position: top right;
 }
@@ -4081,8 +4081,8 @@ dd {
   margin: 0 auto;
   max-width: 1440px;
   background-color: #20410f;
-  background-image: -webkit-image-set("../img/form/bg-form-desktop.jpg" type("image/jpg") 1x, "../img/form/bg-form-desktop@2x.jpg" type("image/jpg") 2x, "../img/form/bg-form-desktop.webp" type("image/webp") 1x, "../img/form/bg-form-desktop@2x.webp" type("image/webp") 2x);
-  background-image: image-set("../img/form/bg-form-desktop.jpg" type("image/jpg") 1x, "../img/form/bg-form-desktop@2x.jpg" type("image/jpg") 2x, "../img/form/bg-form-desktop.webp" type("image/webp") 1x, "../img/form/bg-form-desktop@2x.webp" type("image/webp") 2x);
+  background-image: -webkit-image-set("../img/form/bg-form-desktop.jpg" type("image/jpg"), "../img/form/bg-form-desktop@2x.jpg" type("image/jpg"), "../img/form/bg-form-desktop.webp" type("image/webp"), "../img/form/bg-form-desktop@2x.webp" type("image/webp")), -webkit-image-set("../img/form/bg-form-desktop.jpg" type("image/jpg"), "../img/form/bg-form-desktop@2x.jpg" type("image/jpg"), "../img/form/bg-form-desktop.webp" type("image/webp"), "../img/form/bg-form-desktop@2x.webp" type("image/webp"));
+  background-image: image-set("../img/form/bg-form-desktop.jpg" type("image/jpg"), "../img/form/bg-form-desktop@2x.jpg" type("image/jpg"), "../img/form/bg-form-desktop.webp" type("image/webp"), "../img/form/bg-form-desktop@2x.webp" type("image/webp")), -webkit-image-set("../img/form/bg-form-desktop.jpg" type("image/jpg"), "../img/form/bg-form-desktop@2x.jpg" type("image/jpg"), "../img/form/bg-form-desktop.webp" type("image/webp"), "../img/form/bg-form-desktop@2x.webp" type("image/webp"));
   background-size: cover;
   background-position: top center;
 }
@@ -4367,6 +4367,7 @@ dd {
 .contacts__item p {
   padding: 0;
   margin: 0;
+  margin-bottom: 0;
   -ms-grid-column: 2;
   -ms-grid-column-span: 1;
   grid-column: 2/3;
@@ -5209,8 +5210,8 @@ dd {
 
   .form {
     max-width: 1199px;
-    background-image: -webkit-image-set("../img/form/bg-form-tablet.jpg" type("image/jpg") 1x, "../img/form/bg-form-tablet@2x.jpg" type("image/jpg") 2x, "../img/form/bg-form-tablet.webp" type("image/webp") 1x, "../img/form/bg-form-tablet@2x.webp" type("image/webp") 2x);
-    background-image: image-set("../img/form/bg-form-tablet.jpg" type("image/jpg") 1x, "../img/form/bg-form-tablet@2x.jpg" type("image/jpg") 2x, "../img/form/bg-form-tablet.webp" type("image/webp") 1x, "../img/form/bg-form-tablet@2x.webp" type("image/webp") 2x);
+    background-image: -webkit-image-set("../img/form/bg-form-tablet.jpg" type("image/jpg"), "../img/form/bg-form-tablet@2x.jpg" type("image/jpg"), "../img/form/bg-form-tablet.webp" type("image/webp"), "../img/form/bg-form-tablet@2x.webp" type("image/webp")), -webkit-image-set("../img/form/bg-form-tablet.jpg" type("image/jpg"), "../img/form/bg-form-tablet@2x.jpg" type("image/jpg"), "../img/form/bg-form-tablet.webp" type("image/webp"), "../img/form/bg-form-tablet@2x.webp" type("image/webp"));
+    background-image: image-set("../img/form/bg-form-tablet.jpg" type("image/jpg"), "../img/form/bg-form-tablet@2x.jpg" type("image/jpg"), "../img/form/bg-form-tablet.webp" type("image/webp"), "../img/form/bg-form-tablet@2x.webp" type("image/webp")), -webkit-image-set("../img/form/bg-form-tablet.jpg" type("image/jpg"), "../img/form/bg-form-tablet@2x.jpg" type("image/jpg"), "../img/form/bg-form-tablet.webp" type("image/webp"), "../img/form/bg-form-tablet@2x.webp" type("image/webp"));
   }
 
   .form__wrapper {
@@ -5467,8 +5468,8 @@ dd {
   }
 
   .hero__slide--02 {
-    background-image: -webkit-image-set("../img/hero/hero-2-desktop.jpg" type("image/jpg"), "../img/hero/hero-2-desktop@2x.jpg" type("image/jpg"), "../img/hero/hero-2-desktop.webp" type("image/webp"), "../img/hero/hero-2-desktop@2x.webp" type("image/webp"));
-    background-image: image-set("../img/hero/hero-2-desktop.jpg" type("image/jpg"), "../img/hero/hero-2-desktop@2x.jpg" type("image/jpg"), "../img/hero/hero-2-desktop.webp" type("image/webp"), "../img/hero/hero-2-desktop@2x.webp" type("image/webp"));
+    background-image: -webkit-image-set("../img/hero/hero-2-desktop.jpg" type("image/jpg"), "../img/hero/hero-2-desktop@2x.jpg" type("image/jpg"), "../img/hero/hero-2-desktop.webp" type("image/webp"), "../img/hero/hero-2-desktop@2x.webp" type("image/webp")), -webkit-image-set("../img/hero/hero-2-desktop.jpg" type("image/jpg"), "../img/hero/hero-2-desktop@2x.jpg" type("image/jpg"), "../img/hero/hero-2-desktop.webp" type("image/webp"), "../img/hero/hero-2-desktop@2x.webp" type("image/webp"));
+    background-image: image-set("../img/hero/hero-2-desktop.jpg" type("image/jpg"), "../img/hero/hero-2-desktop@2x.jpg" type("image/jpg"), "../img/hero/hero-2-desktop.webp" type("image/webp"), "../img/hero/hero-2-desktop@2x.webp" type("image/webp")), -webkit-image-set("../img/hero/hero-2-desktop.jpg" type("image/jpg"), "../img/hero/hero-2-desktop@2x.jpg" type("image/jpg"), "../img/hero/hero-2-desktop.webp" type("image/webp"), "../img/hero/hero-2-desktop@2x.webp" type("image/webp"));
     background-repeat: no-repeat;
     background-size: cover;
     background-position: top center;
@@ -5578,8 +5579,8 @@ dd {
     width: 346px;
     height: 595px;
     top: 705px;
-    background-image: -webkit-image-set("../img/clouds/clouds-1-mobile.png" type("image/png") 1x, "../img/clouds/clouds-1-mobile@2x.png" type("image/png") 2x, "../img/clouds/clouds-1-mobile.webp" type("image/webp") 1x, "../img/clouds/clouds-1-mobile@2x.webp" type("image/webp") 2x);
-    background-image: image-set("../img/clouds/clouds-1-mobile.png" type("image/png") 1x, "../img/clouds/clouds-1-mobile@2x.png" type("image/png") 2x, "../img/clouds/clouds-1-mobile.webp" type("image/webp") 1x, "../img/clouds/clouds-1-mobile@2x.webp" type("image/webp") 2x);
+    background-image: -webkit-image-set("../img/clouds/clouds-1-mobile.png" type("image/png"), "../img/clouds/clouds-1-mobile@2x.png" type("image/png"), "../img/clouds/clouds-1-mobile.webp" type("image/webp"), "../img/clouds/clouds-1-mobile@2x.webp" type("image/webp")), -webkit-image-set("../img/clouds/clouds-1-mobile.png" type("image/png"), "../img/clouds/clouds-1-mobile@2x.png" type("image/png"), "../img/clouds/clouds-1-mobile.webp" type("image/webp"), "../img/clouds/clouds-1-mobile@2x.webp" type("image/webp"));
+    background-image: image-set("../img/clouds/clouds-1-mobile.png" type("image/png"), "../img/clouds/clouds-1-mobile@2x.png" type("image/png"), "../img/clouds/clouds-1-mobile.webp" type("image/webp"), "../img/clouds/clouds-1-mobile@2x.webp" type("image/webp")), -webkit-image-set("../img/clouds/clouds-1-mobile.png" type("image/png"), "../img/clouds/clouds-1-mobile@2x.png" type("image/png"), "../img/clouds/clouds-1-mobile.webp" type("image/webp"), "../img/clouds/clouds-1-mobile@2x.webp" type("image/webp"));
     background-position: top right -170px;
   }
 
@@ -6012,8 +6013,8 @@ dd {
 
   .form {
     min-width: 320px;
-    background-image: -webkit-image-set("../img/form/bg-form-mobile.jpg" type("image/jpg") 1x, "../img/form/bg-form-mobile@2x.jpg" type("image/jpg") 2x, "../img/form/bg-form-mobile.webp" type("image/webp") 1x, "../img/form/bg-form-mobile@2x.webp" type("image/webp") 2x);
-    background-image: image-set("../img/form/bg-form-mobile.jpg" type("image/jpg") 1x, "../img/form/bg-form-mobile@2x.jpg" type("image/jpg") 2x, "../img/form/bg-form-mobile.webp" type("image/webp") 1x, "../img/form/bg-form-mobile@2x.webp" type("image/webp") 2x);
+    background-image: -webkit-image-set("../img/form/bg-form-mobile.jpg" type("image/jpg"), "../img/form/bg-form-mobile@2x.jpg" type("image/jpg"), "../img/form/bg-form-mobile.webp" type("image/webp"), "../img/form/bg-form-mobile@2x.webp" type("image/webp")), -webkit-image-set("../img/form/bg-form-mobile.jpg" type("image/jpg"), "../img/form/bg-form-mobile@2x.jpg" type("image/jpg"), "../img/form/bg-form-mobile.webp" type("image/webp"), "../img/form/bg-form-mobile@2x.webp" type("image/webp"));
+    background-image: image-set("../img/form/bg-form-mobile.jpg" type("image/jpg"), "../img/form/bg-form-mobile@2x.jpg" type("image/jpg"), "../img/form/bg-form-mobile.webp" type("image/webp"), "../img/form/bg-form-mobile@2x.webp" type("image/webp")), -webkit-image-set("../img/form/bg-form-mobile.jpg" type("image/jpg"), "../img/form/bg-form-mobile@2x.jpg" type("image/jpg"), "../img/form/bg-form-mobile.webp" type("image/webp"), "../img/form/bg-form-mobile@2x.webp" type("image/webp"));
   }
 
   .form__wrapper {

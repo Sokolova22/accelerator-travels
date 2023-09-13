@@ -6,10 +6,14 @@
     right: 0;
     width: 602px;
     height: 1364px;
-    background-image: image-set("../img/clouds/clouds-1.png" type("image/png") 1x,
-        "../img/clouds/clouds-1@2x.png" type("image/png") 2x,
-        "../img/clouds/clouds-1.webp" type("image/webp") 1x,
-        "../img/clouds/clouds-1@2x.webp" type("image/webp") 2x);
+    background-image: image-set("../img/clouds/clouds-1.png" type("image/png"),
+        "../img/clouds/clouds-1@2x.png" type("image/png"),
+        "../img/clouds/clouds-1.webp" type("image/webp"),
+        "../img/clouds/clouds-1@2x.webp" type("image/webp")),
+      -webkit-image-set("../img/clouds/clouds-1.png" type("image/png"),
+        "../img/clouds/clouds-1@2x.png" type("image/png"),
+        "../img/clouds/clouds-1.webp" type("image/webp"),
+        "../img/clouds/clouds-1@2x.webp" type("image/webp"));
     background-repeat: no-repeat;
     background-position: top right;
 
@@ -23,10 +27,14 @@
       height: 595px;
       top: 705px;
       // left: 144px;
-      background-image: image-set("../img/clouds/clouds-1-mobile.png" type("image/png") 1x,
-          "../img/clouds/clouds-1-mobile@2x.png" type("image/png") 2x,
-          "../img/clouds/clouds-1-mobile.webp" type("image/webp") 1x,
-          "../img/clouds/clouds-1-mobile@2x.webp" type("image/webp") 2x);
+      background-image: image-set("../img/clouds/clouds-1-mobile.png" type("image/png"),
+          "../img/clouds/clouds-1-mobile@2x.png" type("image/png"),
+          "../img/clouds/clouds-1-mobile.webp" type("image/webp"),
+          "../img/clouds/clouds-1-mobile@2x.webp" type("image/webp")),
+        -webkit-image-set("../img/clouds/clouds-1-mobile.png" type("image/png"),
+          "../img/clouds/clouds-1-mobile@2x.png" type("image/png"),
+          "../img/clouds/clouds-1-mobile.webp" type("image/webp"),
+          "../img/clouds/clouds-1-mobile@2x.webp" type("image/webp"));
       background-position: top right -170px;
     }
   }
