@@ -120,7 +120,6 @@
   p {
     padding: 0;
     margin: 0;
-
     grid-column: 2 / 3;
     grid-row: 2 / 3;
     width: max-content;
@@ -253,6 +252,7 @@
   max-width: 585px;
   max-height: 324px;
 
+
   @include vp-1199 {
     max-width: 678px;
     max-height: 340px;
@@ -261,5 +261,6 @@
   iframe {
     width: 100%;
     height: 100%;
+    border: none;
   }
 }

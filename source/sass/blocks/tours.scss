@@ -14,8 +14,9 @@
         "../img/clouds/clouds-1@2x.png" type("image/png"),
         "../img/clouds/clouds-1.webp" type("image/webp"),
         "../img/clouds/clouds-1@2x.webp" type("image/webp"));
+    background-size: cover;
     background-repeat: no-repeat;
-    background-position: top right;
+    // background-position: left;
 
     @include vp-1199 {
       top: 958px;
@@ -179,7 +180,10 @@
   }
 
   h4 {
+    position: relative;
+
     @include heading-h4;
+
     margin: 0;
     margin-right: 36px;
     margin-bottom: 38px;
@@ -193,6 +197,16 @@
 
       margin-right: 50px;
       margin-bottom: 31px;
+    }
+
+    &::after {
+      position: absolute;
+      content: "";
+      bottom: -17px;
+      left: 0;
+      width: 80px;
+      height: 1px;
+      background-color: rgba(255, 255, 255, 0.2);
     }
   }
 

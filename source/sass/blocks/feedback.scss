@@ -4,9 +4,9 @@
   &::before {
     position: absolute;
     content: "";
-    top: 261px;
+    top: 243px;
     left: 0;
-    width: 1170px;
+    width: 768px;
     height: 391px;
     background-image: image-set("../img/clouds/clouds-4.png" type("image/png"),
         "../img/clouds/clouds-4@2x.png" type("image/png"),
@@ -16,8 +16,9 @@
         "../img/clouds/clouds-4@2x.png" type("image/png"),
         "../img/clouds/clouds-4.webp" type("image/webp"),
         "../img/clouds/clouds-4@2x.webp" type("image/webp"));
+    background-size: cover;
     background-repeat: no-repeat;
-    background-position: top left;
+    background-position: top left -37px;
 
     @include vp-1199 {
       display: none;
@@ -28,9 +29,9 @@
     position: absolute;
     // z-index: 1;
     content: "";
-    top: 447px;
+    top: 446px;
     right: 0;
-    width: 788px;
+    width: 488px;
     height: 263px;
     background-image: image-set("../img/clouds/clouds-5.png" type("image/png"),
         "../img/clouds/clouds-5@2x.png" type("image/png"),
@@ -40,6 +41,7 @@
         "../img/clouds/clouds-5@2x.png" type("image/png"),
         "../img/clouds/clouds-5.webp" type("image/webp"),
         "../img/clouds/clouds-5@2x.webp" type("image/webp"));
+    background-size: cover;
     background-repeat: no-repeat;
     background-position: top right;
 

@@ -250,6 +250,11 @@
   }
 }
 
+.hero__audio {
+  border: none;
+}
+
+
 .hero__button {
   @include button-regular;
   color: $color-default-white;
