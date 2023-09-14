@@ -82,7 +82,7 @@
     padding-left: 15px;
   }
 
-  h3 {
+  h2 {
     position: relative;
 
     @include heading-h3;
@@ -104,7 +104,6 @@
       bottom: 0;
 
       @include heading-h2;
-
       color: $color-primary-elephant;
       opacity: 0.03;
     }

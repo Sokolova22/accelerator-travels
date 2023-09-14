@@ -17,7 +17,7 @@
 <body>
   <div class="wrapper ">
     <header class="header ">
-      <div class="modal__overlay" data-close-modal></div>
+      <div class="header__overlay" data-close-modal></div>
       <div class="header__wrapper header__wrapper--is-invalid " data-modal="modal">
         <a href="index.html" class="header__logo header__logo--is-invalid">
           <svg aria-hidden="true" focusable="false" width="205" height="62" aria-label="Логотип LIFETOUR.">
@@ -130,7 +130,7 @@
           <div class="tours__swiper swiper">
 
             <div class="tours__button-box">
-              <h3 data-heading="Ближайшие туры">Ближайшие туры</h3>
+              <h2 data-heading="Ближайшие туры">Ближайшие туры</h2>
               <div class="tours__swiper-button tours__swiper-button--prev" tabindex="1"></div>
               <div class="tours__swiper-button tours__swiper-button--next" tabindex="1"></div>
             </div>
@@ -393,7 +393,7 @@
       </section>
       <section class="training" id="training">
         <div class="training__wrapper">
-          <h3 data-heading="Обучение">Обучение</h3>
+          <h2 data-heading="Обучение">Обучение</h2>
           <p>Обучение проводится квалифицированными специалистами, за&nbsp;плечами которых десятки пройденных маршрутов Кавказа, Крыма, Гималаев, Эльбруса, Алтая, Карелии, Адыгеи и&nbsp;других.</p>
 
 
@@ -664,7 +664,7 @@
           </div>
 
           <div class="about__description">
-            <h3 data-heading="О нас">О нас</h3>
+            <h2 data-heading="О нас">О нас</h2>
             <h5>История компании</h5>
             <p>В&nbsp;далеком 2000 году мы&nbsp;начали заниматься туризмом&nbsp;&mdash; походы, поездки, восхождения, нам это настолько понравилось, что мы&nbsp;этим стали жить. Спустя 5&nbsp;лет,
               в&nbsp;2005 году мы&nbsp;основали компанию, чтобы показывать людям удивительные места нашей страны.</p>
@@ -681,7 +681,7 @@
           <div class="feedback__swiper swiper">
 
             <div class="feedback__button-box">
-              <h3 data-heading="Отзывы">Отзывы</h3>
+              <h2 data-heading="Отзывы">Отзывы</h2>
               <div class="feedback__swiper-button feedback__swiper-button--prev"></div>
               <div class="feedback__swiper-button feedback__swiper-button--next"></div>
             </div>
@@ -810,7 +810,7 @@
       <section class="advantages">
         <div class="advantages__wrapper">
 
-          <h3 data-heading="Преимущества">Преимущества</h3>
+          <h2 data-heading="Преимущества">Преимущества</h2>
 
           <div class="advantages__swiper swiper">
             <div class="advantages__button-box">
@@ -896,7 +896,7 @@
       </section>
       <section class="gallery" id="gallery">
         <div class="gallery__wrapper">
-          <h3 data-heading="Фотогалерея">Фотогалерея</h3>
+          <h2 data-heading="Фотогалерея">Фотогалерея</h2>
 
           <div class="gallery__swiper swiper">
 
@@ -1072,7 +1072,7 @@
       <section class="form">
         <div class="form__wrapper" data-form-validate data-callback="base">
           <form action="https://echo.htmlacademy.ru/" method="post">
-            <h3>Остались вопросы?</h3>
+            <h2>Остались вопросы?</h2>
             <p>Заполните форму и&nbsp;наш оператор свяжется с&nbsp;вами для консультации.</p>
             <div class="form__container">
               <div class="custom-input form__input" data-validate-type="text" data-limitation="name" data-required>
@@ -1092,7 +1092,7 @@
       </section>
       <section class="contacts" id="contacts">
         <div class="contacts__wrapper">
-          <h3 data-heading="Контакты">Контакты</h3>
+          <h2 data-heading="Контакты">Контакты</h2>
           <p>Свяжитесь с&nbsp;нами любым удобным для вас способом или приходите к&nbsp;нам в&nbsp;гости. Мы&nbsp;будем рады поделиться увлекательными историями и&nbsp;подобрать для вас тур.</p>
           <ul class="contacts__list">
             <li class="contacts__item">
@@ -1143,32 +1143,34 @@
             <use xlink:href="img/sprite.svg#logo-light"></use>
           </svg>
         </a>
-        <ul class="footer-nav__list">
-          <li class="footer-nav__item"><a href="#" class="footer-nav__link">Туры</a></li>
-          <li class="footer-nav__item"><a href="#" class="footer-nav__link">Обучение</a></li>
-          <li class="footer-nav__item"><a href="#" class="footer-nav__link">О нас</a></li>
-          <li class="footer-nav__item"><a href="#" class="footer-nav__link">Отзывы</a></li>
-          <li class="footer-nav__item"><a href="#" class="footer-nav__link">Фотографии</a></li>
-          <li class="footer-nav__item"><a href="#" class="footer-nav__link">Контакты</a></li>
-        </ul>
+        <nav class="footer-nav">
+          <ul class="footer-nav__list">
+            <li class="footer-nav__item"><a href="#" class="footer-nav__link">Туры</a></li>
+            <li class="footer-nav__item"><a href="#" class="footer-nav__link">Обучение</a></li>
+            <li class="footer-nav__item"><a href="#" class="footer-nav__link">О нас</a></li>
+            <li class="footer-nav__item"><a href="#" class="footer-nav__link">Отзывы</a></li>
+            <li class="footer-nav__item"><a href="#" class="footer-nav__link">Фотографии</a></li>
+            <li class="footer-nav__item"><a href="#" class="footer-nav__link">Контакты</a></li>
+          </ul>
+        </nav>
         <a class="footer__phone" href="tel:88007253232">8 800 725 32 32</a>
-        <ul class="footer-social__list">
-          <li class="footer-social__item">
-            <a class="footer-social__link" href="#" aria-label="Ссылка на страницу vk.com">
+        <ul class="footer__social social">
+          <li class="social__item">
+            <a class="social__link" href="#" aria-label="Ссылка на страницу vk.com">
               <svg aria-hidden="true" focusable="false" width="13" height="8" viewBox="0 0 13 8">
                 <use xlink:href="img/sprite.svg#icon-vk"></use>
               </svg>
             </a>
           </li>
-          <li class="footer-social__item">
-            <a class="footer-social__link" href="#" aria-label="Ссылка на страницу ok.ru">
+          <li class="social__item">
+            <a class="social__link" href="#" aria-label="Ссылка на страницу ok.ru">
               <svg aria-hidden="true" focusable="false" width="10" height="17" viewBox="0 0 10 17">
                 <use xlink:href="img/sprite.svg#icon-ok"></use>
               </svg>
             </a>
           </li>
-          <li class="footer-social__item">
-            <a class="footer-social__link" href="#">
+          <li class="social__item">
+            <a class="social__link" href="#">
               <svg aria-hidden="true" aria-label="Ссылка на страницу reddit.com" focusable="false" width="15" height="15" viewBox="0 0 15 15">
                 <use xlink:href="img/sprite.svg#icon-reddit"></use>
               </svg>

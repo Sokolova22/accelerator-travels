@@ -76,7 +76,7 @@
   z-index: 3;
   max-width: 1440px;
   margin: 0 auto;
-  padding: 123px 120px 102px;
+  padding: 83px 120px 102px;
 
   @include vp-1199 {
     padding: 83px 45px 63px;
@@ -88,11 +88,16 @@
 }
 
 .tours__swiper {
+
   position: relative;
   max-width: 1200px;
-  height: 501px;
+  min-height: 541px;
   color: $color-default-white;
   margin-bottom: 52px;
+  display: flex;
+  flex-direction: column;
+
+  justify-content: flex-end;
 
   @include vp-1199 {
     height: 485px;
@@ -104,7 +109,7 @@
     margin-bottom: 34px;
   }
 
-  h3 {
+  h2 {
 
     position: relative;
     z-index: 2;
@@ -127,10 +132,12 @@
     }
 
     &::after {
+
       position: absolute;
       content: attr(data-heading);
       left: 0;
       bottom: 0;
+      min-width: 600px;
 
       @include heading-h2;
 
@@ -139,6 +146,7 @@
     }
   }
 }
+
 
 .tours__slide {
   position: relative;
