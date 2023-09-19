@@ -34,7 +34,7 @@
   }
 
   @include vp-1199 {
-    padding: 30px 45px 70px;
+    padding: 30px 45px 46px;
     justify-content: flex-end;
     align-items: flex-start;
     flex-direction: row;
@@ -70,7 +70,8 @@
   svg {
     fill: $color-default-white;
 
-    @include hover-focus {
+    &:hover,
+    &:focus-visible {
       fill: $color-resolution-blue;
       outline: none;
     }
@@ -127,7 +128,8 @@
       svg {
         fill: $color-primary-elephant;
 
-        @include hover-focus {
+        &:hover,
+        &:focus-visible {
           fill: $color-resolution-blue;
           outline: none;
         }
@@ -159,7 +161,8 @@
 
   @include heading-h6;
 
-  @include hover-focus {
+  &:hover,
+  &:focus-visible {
     color: $color-resolution-blue;
     outline: none;
   }

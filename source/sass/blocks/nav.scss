@@ -88,13 +88,14 @@
     width: 100%;
     max-width: 1199px;
     // height: 296px;
-    height: 210px;
+    height: 250px;
 
     overflow-y: auto;
     flex-wrap: nowrap;
   }
 
   @include vp-767 {
+    height: 210px;
     // max-width: 290px;
     margin-top: 15px;
     margin-right: 0;

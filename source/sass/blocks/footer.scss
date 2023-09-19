@@ -51,7 +51,8 @@
       height: 34px;
     }
 
-    @include hover-focus {
+    &:hover,
+    &:focus-visible {
       fill: $color-resolution-blue;
       outline: none;
     }
@@ -155,7 +156,8 @@
   color: $color-primary-elephant;
   margin-left: auto;
 
-  @include hover-focus {
+  &:hover,
+  &:focus-visible {
     color: $color-resolution-blue;
     outline: none;
   }

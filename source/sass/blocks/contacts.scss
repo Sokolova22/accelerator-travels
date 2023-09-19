@@ -185,17 +185,19 @@
 }
 
 .contacts__link {
-  @include hover-focus {
+  &:hover,
+  &:focus-visible {
     color: $color-resolution-blue;
     outline: none;
   }
+
 
   &:active {
     color: $color-navy-blue;
   }
 
   &:disabled {
-    color: rgba(2, 102, 193, 0.1);
+    color: rgba(255, 255, 255, 0.1);
   }
 }
 

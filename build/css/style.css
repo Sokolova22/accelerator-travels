@@ -2154,7 +2154,8 @@ button,
   fill: #ffffff;
 }
 
-.header__logo svg.focus-visible:focus {
+.header__logo svg:hover,
+.header__logo svg:focus-visible {
   fill: #1c3374;
   outline: none;
 }
@@ -2182,7 +2183,8 @@ button,
   line-height: 18px;
 }
 
-.header__phone.focus-visible:focus {
+.header__phone:hover,
+.header__phone:focus-visible {
   color: #1c3374;
   outline: none;
 }
@@ -2432,7 +2434,8 @@ button,
   cursor: pointer;
 }
 
-.hero__button.focus-visible:focus {
+.hero__button:hover,
+.hero__button:focus-visible {
   color: #1c3374;
   background-color: #ffffff;
   outline: 1px solid #1c3374;
@@ -2489,7 +2492,8 @@ button,
   cursor: pointer;
 }
 
-.hero__video-button.focus-visible:focus {
+.hero__video-button:hover,
+.hero__video-button:focus-visible {
   background-image: url("../img/sprite/icon-play-hf.svg");
 }
 
@@ -2593,7 +2597,8 @@ button,
   fill: #2d383f;
 }
 
-.footer__logo svg.focus-visible:focus {
+.footer__logo svg:hover,
+.footer__logo svg:focus-visible {
   fill: #1c3374;
   outline: none;
 }
@@ -2665,7 +2670,8 @@ button,
   margin-left: auto;
 }
 
-.footer__phone.focus-visible:focus {
+.footer__phone:hover,
+.footer__phone:focus-visible {
   color: #1c3374;
   outline: none;
 }
@@ -2949,12 +2955,14 @@ dd {
   width: max-content;
 }
 
-.tours__link.focus-visible:focus {
+.tours__link:hover,
+.tours__link:focus-visible {
   color: #1c3374;
   outline: none;
 }
 
-.tours__link.focus-visible:focus svg {
+.tours__link:hover svg,
+.tours__link:focus-visible svg {
   fill: none;
   stroke: currentColor;
 }
@@ -3008,7 +3016,8 @@ dd {
   margin-right: 4px;
 }
 
-.tours__swiper-button--prev.focus-visible:focus {
+.tours__swiper-button--prev:hover,
+.tours__swiper-button--prev:focus-visible {
   background-image: url("../img/sprite/icon-arrow-hf.svg");
   outline: none;
 }
@@ -3026,7 +3035,8 @@ dd {
   background-image: url("../img/sprite/icon-arrow.svg");
 }
 
-.tours__swiper-button--next.focus-visible:focus {
+.tours__swiper-button--next:hover,
+.tours__swiper-button--next:focus-visible {
   background-image: url("../img/sprite/icon-arrow-hf.svg");
   outline: none;
 }
@@ -3146,7 +3156,8 @@ dd {
   margin-right: 4px;
 }
 
-.training__swiper-button--prev.focus-visible:focus {
+.training__swiper-button--prev:hover,
+.training__swiper-button--prev:focus-visible {
   background-image: url("../img/sprite/icon-arrow-hf.svg");
   outline: none;
 }
@@ -3164,7 +3175,8 @@ dd {
   background-image: url("../img/sprite/icon-arrow.svg");
 }
 
-.training__swiper-button--next.focus-visible:focus {
+.training__swiper-button--next:hover,
+.training__swiper-button--next:focus-visible {
   background-image: url("../img/sprite/icon-arrow-hf.svg");
   outline: none;
 }
@@ -3269,12 +3281,14 @@ dd {
   height: 24px;
 }
 
-.training__link.focus-visible:focus {
+.training__link:hover,
+.training__link:focus-visible {
   border: 1px solid #2d383f;
   outline: none;
 }
 
-.training__link.focus-visible:focus svg {
+.training__link:hover svg,
+.training__link:focus-visible svg {
   fill: #2d383f;
 }
 
@@ -3685,7 +3699,8 @@ dd {
   margin-right: 4px;
 }
 
-.feedback__swiper-button--prev.focus-visible:focus {
+.feedback__swiper-button--prev:hover,
+.feedback__swiper-button--prev:focus-visible {
   background-image: url("../img/sprite/icon-arrow-hf.svg");
   outline: none;
 }
@@ -3703,7 +3718,8 @@ dd {
   background-image: url("../img/sprite/icon-arrow.svg");
 }
 
-.feedback__swiper-button--next.focus-visible:focus {
+.feedback__swiper-button--next:hover,
+.feedback__swiper-button--next:focus-visible {
   background-image: url("../img/sprite/icon-arrow-hf.svg");
   outline: none;
 }
@@ -3876,7 +3892,8 @@ dd {
   margin-right: 4px;
 }
 
-.advantages__swiper-button--prev.focus-visible:focus {
+.advantages__swiper-button--prev:hover,
+.advantages__swiper-button--prev:focus-visible {
   background-image: url("../img/sprite/icon-arrow-hf.svg");
   outline: none;
 }
@@ -3894,7 +3911,8 @@ dd {
   background-image: url("../img/sprite/icon-arrow.svg");
 }
 
-.advantages__swiper-button--next.focus-visible:focus {
+.advantages__swiper-button--next:hover,
+.advantages__swiper-button--next:focus-visible {
   background-image: url("../img/sprite/icon-arrow-hf.svg");
   outline: none;
 }
@@ -4026,7 +4044,8 @@ dd {
   margin-right: 4px;
 }
 
-.gallery__swiper-button--prev.focus-visible:focus {
+.gallery__swiper-button--prev:hover,
+.gallery__swiper-button--prev:focus-visible {
   background-image: url("../img/sprite/icon-arrow-hf.svg");
   outline: none;
 }
@@ -4044,7 +4063,8 @@ dd {
   background-image: url("../img/sprite/icon-arrow.svg");
 }
 
-.gallery__swiper-button--next.focus-visible:focus {
+.gallery__swiper-button--next:hover,
+.gallery__swiper-button--next:focus-visible {
   background-image: url("../img/sprite/icon-arrow-hf.svg");
   outline: none;
 }
@@ -4075,8 +4095,8 @@ dd {
 .form {
   margin: 0 auto;
   background-color: #20410f;
-  background-image: image-set("../img/form/bg-form-desktop.jpg" type("image/jpg"), "../img/form/bg-form-desktop@2x.jpg" type("image/jpg"), "../img/form/bg-form-desktop.webp" type("image/webp"), "../img/form/bg-form-desktop@2x.webp" type("image/webp"));
-  background-image: -webkit-image-set("../img/form/bg-form-desktop.jpg" type("image/jpg"), "../img/form/bg-form-desktop@2x.jpg" type("image/jpg"), "../img/form/bg-form-desktop.webp" type("image/webp"), "../img/form/bg-form-desktop@2x.webp" type("image/webp"));
+  background-image: -webkit-image-set(url("../img/form/bg-form-desktop.jpg") type("image/jpg"), url("../img/form/bg-form-desktop@2x.jpg") type("image/jpg"), url("../img/form/bg-form-desktop.webp") type("image/webp"), url("../img/form/bg-form-desktop@2x.webp") type("image/webp"));
+  background-image: image-set(url("../img/form/bg-form-desktop.jpg") type("image/jpg"), url("../img/form/bg-form-desktop@2x.jpg") type("image/jpg"), url("../img/form/bg-form-desktop.webp") type("image/webp"), url("../img/form/bg-form-desktop@2x.webp") type("image/webp"));
   background-size: cover;
   background-position: center;
 }
@@ -4136,7 +4156,8 @@ dd {
   cursor: pointer;
 }
 
-.form__container button.focus-visible:focus {
+.form__container button:hover,
+.form__container button:focus-visible {
   border: 1px solid #1c3374;
   background-color: #ffffff;
   color: #1c3374;
@@ -4398,7 +4419,8 @@ dd {
   margin-bottom: 35px;
 }
 
-.contacts__link.focus-visible:focus {
+.contacts__link:hover,
+.contacts__link:focus-visible {
   color: #1c3374;
   outline: none;
 }
@@ -4408,7 +4430,7 @@ dd {
 }
 
 .contacts__link:disabled {
-  color: rgba(2, 102, 193, 0.1);
+  color: rgba(255, 255, 255, 0.1);
 }
 
 .contacts__map-wrapper {
@@ -4486,12 +4508,14 @@ dd {
   border: 1px solid rgba(45, 56, 63, 0.3);
 }
 
-.social__link.focus-visible:focus {
+.social__link:hover,
+.social__link:focus-visible {
   border: 1px solid #2d383f;
   outline: none;
 }
 
-.social__link.focus-visible:focus svg {
+.social__link:hover svg,
+.social__link:focus-visible svg {
   fill: #2d383f;
   outline: none;
 }
@@ -4568,7 +4592,7 @@ dd {
 
 @media (max-width: 1199px) {
   .header__wrapper {
-    padding: 30px 45px 70px;
+    padding: 30px 45px 46px;
     -webkit-box-pack: end;
     -ms-flex-pack: end;
     justify-content: flex-end;
@@ -4635,7 +4659,8 @@ dd {
     fill: #2d383f;
   }
 
-  .header__logo--is-active svg.focus-visible:focus {
+  .header__logo--is-active svg:hover,
+  .header__logo--is-active svg:focus-visible {
     fill: #1c3374;
     outline: none;
   }
@@ -4715,7 +4740,7 @@ dd {
     flex-direction: column;
     width: 100%;
     max-width: 1199px;
-    height: 210px;
+    height: 250px;
     overflow-y: auto;
     -ms-flex-wrap: nowrap;
     flex-wrap: nowrap;
@@ -4960,10 +4985,6 @@ dd {
     margin-right: 10px;
   }
 
-  .tours__details {
-    gap: 18px;
-  }
-
   .tours__button-box {
     margin-bottom: 39px;
   }
@@ -4994,12 +5015,12 @@ dd {
 
   .training__wrapper h5 {
     margin-bottom: 21px;
-    margin-left: 10px;
+    margin-left: 0;
   }
 
   .training__wrapper p {
     margin-bottom: 55px;
-    margin-right: 93px;
+    margin-right: 103px;
     margin-left: 10px;
   }
 
@@ -5322,8 +5343,8 @@ dd {
   }
 
   .form {
-    background-image: image-set("../img/form/bg-form-tablet.jpg" type("image/jpg"), "../img/form/bg-form-tablet@2x.jpg" type("image/jpg"), "../img/form/bg-form-tablet.webp" type("image/webp"), "../img/form/bg-form-tablet@2x.webp" type("image/webp"));
-    background-image: -webkit-image-set("../img/form/bg-form-tablet.jpg" type("image/jpg"), "../img/form/bg-form-tablet@2x.jpg" type("image/jpg"), "../img/form/bg-form-tablet.webp" type("image/webp"), "../img/form/bg-form-tablet@2x.webp" type("image/webp"));
+    background-image: image-set(url("../img/form/bg-form-tablet.jpg") type("image/jpg"), url("../img/form/bg-form-tablet@2x.jpg") type("image/jpg"), url("../img/form/bg-form-tablet.webp") type("image/webp"), url("../img/form/bg-form-tablet@2x.webp") type("image/webp"));
+    background-image: -webkit-image-set(url("../img/form/bg-form-tablet.jpg") type("image/jpg"), url("../img/form/bg-form-tablet@2x.jpg") type("image/jpg"), url("../img/form/bg-form-tablet.webp") type("image/webp"), url("../img/form/bg-form-tablet@2x.webp") type("image/webp"));
   }
 
   .form__wrapper {
@@ -5489,13 +5510,6 @@ dd {
   }
 }
 
-@media (max-width: 1199px) and (hover: hover) {
-  .header__logo--is-active svg:hover:not(.focus-visible) {
-    fill: #1c3374;
-    outline: none;
-  }
-}
-
 @media (max-width: 1199px) and (max-width: 1199px) {
   .training__slide-container p {
     font-size: 12px;
@@ -5575,6 +5589,7 @@ dd {
   }
 
   .nav__list {
+    height: 210px;
     margin-top: 15px;
     margin-right: 0;
   }
@@ -5855,8 +5870,13 @@ dd {
     line-height: 16px;
   }
 
+  .training__button-box h5 {
+    margin-bottom: 16px;
+    margin-left: 0;
+  }
+
   .training__swiper {
-    margin-bottom: 17px;
+    margin-bottom: 26px;
     min-width: 290px;
   }
 
@@ -5874,6 +5894,7 @@ dd {
     font-size: 12px;
     line-height: 16px;
     margin-bottom: 0;
+    margin-left: 0;
   }
 
   .training__list {
@@ -6149,8 +6170,8 @@ dd {
   }
 
   .form {
-    background-image: image-set("../img/form/bg-form-mobile.jpg" type("image/jpg"), "../img/form/bg-form-mobile@2x.jpg" type("image/jpg"), "../img/form/bg-form-mobile.webp" type("image/webp"), "../img/form/bg-form-mobile@2x.webp" type("image/webp"));
-    background-image: -webkit-image-set("../img/form/bg-form-mobile.jpg" type("image/jpg"), "../img/form/bg-form-mobile@2x.jpg" type("image/jpg"), "../img/form/bg-form-mobile.webp" type("image/webp"), "../img/form/bg-form-mobile@2x.webp" type("image/webp"));
+    background-image: image-set(url("../img/form/bg-form-mobile.jpg") type("image/jpg"), url("../img/form/bg-form-mobile@2x.jpg") type("image/jpg"), url("../img/form/bg-form-mobile.webp") type("image/webp"), url("../img/form/bg-form-mobile@2x.webp") type("image/webp"));
+    background-image: -webkit-image-set(url("../img/form/bg-form-mobile.jpg") type("image/jpg"), url("../img/form/bg-form-mobile@2x.jpg") type("image/jpg"), url("../img/form/bg-form-mobile.webp") type("image/webp"), url("../img/form/bg-form-mobile@2x.webp") type("image/webp"));
   }
 
   .form__wrapper {
@@ -6435,7 +6456,7 @@ dd {
 
 @media (min-width: 768px) and (max-width: 1420px) {
   .tours__details {
-    gap: 29px;
+    gap: 18px;
   }
 }
 
@@ -6497,127 +6518,5 @@ dd {
 
   .custom-select__item:hover:not(.focus-visible) {
     background-color: rgba(0, 0, 0, 0.4);
-  }
-
-  .header__logo svg:hover:not(.focus-visible) {
-    fill: #1c3374;
-    outline: none;
-  }
-
-  .header__phone:hover:not(.focus-visible) {
-    color: #1c3374;
-    outline: none;
-  }
-
-  .hero__button:hover:not(.focus-visible) {
-    color: #1c3374;
-    background-color: #ffffff;
-    outline: 1px solid #1c3374;
-    outline-offset: 1px;
-  }
-
-  .hero__video-button:hover:not(.focus-visible) {
-    background-image: url("../img/sprite/icon-play-hf.svg");
-  }
-
-  .footer__logo svg:hover:not(.focus-visible) {
-    fill: #1c3374;
-    outline: none;
-  }
-
-  .footer__phone:hover:not(.focus-visible) {
-    color: #1c3374;
-    outline: none;
-  }
-
-  .tours__link:hover:not(.focus-visible) {
-    color: #1c3374;
-    outline: none;
-  }
-
-  .tours__link:hover:not(.focus-visible) svg {
-    fill: none;
-    stroke: currentColor;
-  }
-
-  .tours__swiper-button--prev:hover:not(.focus-visible) {
-    background-image: url("../img/sprite/icon-arrow-hf.svg");
-    outline: none;
-  }
-
-  .tours__swiper-button--next:hover:not(.focus-visible) {
-    background-image: url("../img/sprite/icon-arrow-hf.svg");
-    outline: none;
-  }
-
-  .training__swiper-button--prev:hover:not(.focus-visible) {
-    background-image: url("../img/sprite/icon-arrow-hf.svg");
-    outline: none;
-  }
-
-  .training__swiper-button--next:hover:not(.focus-visible) {
-    background-image: url("../img/sprite/icon-arrow-hf.svg");
-    outline: none;
-  }
-
-  .training__link:hover:not(.focus-visible) {
-    border: 1px solid #2d383f;
-    outline: none;
-  }
-
-  .training__link:hover:not(.focus-visible) svg {
-    fill: #2d383f;
-  }
-
-  .feedback__swiper-button--prev:hover:not(.focus-visible) {
-    background-image: url("../img/sprite/icon-arrow-hf.svg");
-    outline: none;
-  }
-
-  .feedback__swiper-button--next:hover:not(.focus-visible) {
-    background-image: url("../img/sprite/icon-arrow-hf.svg");
-    outline: none;
-  }
-
-  .advantages__swiper-button--prev:hover:not(.focus-visible) {
-    background-image: url("../img/sprite/icon-arrow-hf.svg");
-    outline: none;
-  }
-
-  .advantages__swiper-button--next:hover:not(.focus-visible) {
-    background-image: url("../img/sprite/icon-arrow-hf.svg");
-    outline: none;
-  }
-
-  .gallery__swiper-button--prev:hover:not(.focus-visible) {
-    background-image: url("../img/sprite/icon-arrow-hf.svg");
-    outline: none;
-  }
-
-  .gallery__swiper-button--next:hover:not(.focus-visible) {
-    background-image: url("../img/sprite/icon-arrow-hf.svg");
-    outline: none;
-  }
-
-  .form__container button:hover:not(.focus-visible) {
-    border: 1px solid #1c3374;
-    background-color: #ffffff;
-    color: #1c3374;
-    outline: none;
-  }
-
-  .contacts__link:hover:not(.focus-visible) {
-    color: #1c3374;
-    outline: none;
-  }
-
-  .social__link:hover:not(.focus-visible) {
-    border: 1px solid #2d383f;
-    outline: none;
-  }
-
-  .social__link:hover:not(.focus-visible) svg {
-    fill: #2d383f;
-    outline: none;
   }
 }

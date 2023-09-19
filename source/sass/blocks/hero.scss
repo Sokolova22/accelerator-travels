@@ -290,7 +290,8 @@
   background-color: $color-navy-blue;
   cursor: pointer;
 
-  @include hover-focus {
+  &:hover,
+  &:focus-visible {
     color: $color-resolution-blue;
     background-color: $color-default-white;
     outline: 1px solid $color-resolution-blue;
@@ -393,7 +394,8 @@
   outline: none;
   cursor: pointer;
 
-  @include hover-focus {
+  &:hover,
+  &:focus-visible {
     background-image: url("../img/sprite/icon-play-hf.svg");
   }
 
