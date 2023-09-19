@@ -5,6 +5,8 @@ let navList = document.querySelector('.nav__list');
 let header = document.querySelector('.header');
 let headerWrapper = document.querySelector('.header__wrapper');
 let headerLogo = document.querySelector('.header__logo');
+let headerOverlay = document.querySelector('.header__overlay');
+
 
 let body = document.querySelector('body');
 
@@ -54,6 +56,12 @@ navList.addEventListener('click', (evt) => {
 
 });
 
+headerOverlay.addEventListener('click', (evt) => {
+  if (evt.target.classList.contains('header__overlay')) {
+    onCloseMenu();
+  }
+
+});
 
 export const initMenu = () => {
 

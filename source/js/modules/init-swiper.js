@@ -128,7 +128,7 @@ export const swiperGallery = new Swiper('.gallery__swiper', {
       spaceBetween: 5,
     },
 
-    1440: {
+    1200: {
       slidesPerView: 'auto',
       spaceBetween: 5,
     },
@@ -166,19 +166,19 @@ window.addEventListener('DOMContentLoaded', () => {
   };
 
   resizableSwiper(
-      '(min-width: 1200px)',
-      '.advantages__swiper',
-      {
-        loop: true,
-        spaceBetween: 30,
-        slidesPerView: 3,
-        initialSlide: 1,
+    '(min-width: 1200px)',
+    '.advantages__swiper',
+    {
+      loop: true,
+      spaceBetween: 30,
+      slidesPerView: 3,
+      initialSlide: 1,
 
-        navigation: {
-          nextEl: '.advantages__swiper-button--next',
-          prevEl: '.advantages__swiper-button--prev',
-        },
-      }
+      navigation: {
+        nextEl: '.advantages__swiper-button--next',
+        prevEl: '.advantages__swiper-button--prev',
+      },
+    }
   );
 
 
@@ -194,12 +194,12 @@ export const swiperFeedback = new Swiper('.feedback__swiper', {
     },
 
     768: {
-      slidesPerView: 2,
+      slidesPerView: 1,
       spaceBetween: 30,
     },
 
-    1440: {
-      slidesPerView: 2,
+    1200: {
+      slidesPerView: 1,
       spaceBetween: 30,
     },
   },

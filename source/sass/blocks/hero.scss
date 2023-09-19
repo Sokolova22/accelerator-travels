@@ -55,8 +55,8 @@
     background-image: image-set("../img/hero/hero-1-desktop.jpg" type("image/jpg"),
         "../img/hero/hero-1-desktop@2x.jpg" type("image/jpg"),
         "../img/hero/hero-1-desktop.webp" type("image/webp"),
-        "../img/hero/hero-1-desktop@2x.webp" type("image/webp")),
-      -webkit-image-set("../img/hero/hero-1-desktop.jpg" type("image/jpg"),
+        "../img/hero/hero-1-desktop@2x.webp" type("image/webp"));
+    background-image: -webkit-image-set("../img/hero/hero-1-desktop.jpg" type("image/jpg"),
         "../img/hero/hero-1-desktop@2x.jpg" type("image/jpg"),
         "../img/hero/hero-1-desktop.webp" type("image/webp"),
         "../img/hero/hero-1-desktop@2x.webp" type("image/webp"));
@@ -66,47 +66,29 @@
 
   &--02 {
     background-color: #6288b0;
-    background-image: image-set("../img/hero/hero-card-2-desktop.png" type("image/png"),
-        "../img/hero/hero-card-2-desktop@2x.png" type("image/png"),
-        "../img/hero/hero-card-2-desktop.webp" type("image/webp"),
-        "../img/hero/hero-card-2-desktop@2x.webp" type("image/webp")),
-      -webkit-image-set("../img/hero/hero-card-2-desktop.png" type("image/png"),
-        "../img/hero/hero-card-2-desktop@2x.png" type("image/png"),
-        "../img/hero/hero-card-2-desktop.webp" type("image/webp"),
-        "../img/hero/hero-card-2-desktop@2x.webp" type("image/webp")),
-      image-set("../img/hero/hero-card-1-desktop.png" type("image/png"),
-        "../img/hero/hero-card-1-desktop@2x.png" type("image/png"),
-        "../img/hero/hero-card-1-desktop.webp" type("image/webp"),
-        "../img/hero/hero-card-1-desktop@2x.webp" type("image/webp")),
-      -webkit-image-set("../img/hero/hero-card-1-desktop.png" type("image/png"),
-        "../img/hero/hero-card-1-desktop@2x.png" type("image/png"),
-        "../img/hero/hero-card-1-desktop.webp" type("image/webp"),
-        "../img/hero/hero-card-1-desktop@2x.webp" type("image/webp")),
-      image-set("../img/hero/hero-2-desktop.jpg" type("image/jpg"),
-        "../img/hero/hero-2-desktop@2x.jpg" type("image/jpg"),
-        "../img/hero/hero-2-desktop.webp" type("image/webp"),
-        "../img/hero/hero-2-desktop@2x.webp" type("image/webp")),
-      -webkit-image-set("../img/hero/hero-2-desktop.jpg" type("image/jpg"),
+    background-image: image-set("../img/hero/hero-2-desktop.jpg" type("image/jpg"),
         "../img/hero/hero-2-desktop@2x.jpg" type("image/jpg"),
         "../img/hero/hero-2-desktop.webp" type("image/webp"),
         "../img/hero/hero-2-desktop@2x.webp" type("image/webp"));
-
-
+    background-image: -webkit-image-set("../img/hero/hero-2-desktop.jpg" type("image/jpg"),
+        "../img/hero/hero-2-desktop@2x.jpg" type("image/jpg"),
+        "../img/hero/hero-2-desktop.webp" type("image/webp"),
+        "../img/hero/hero-2-desktop@2x.webp" type("image/webp"));
     background-repeat: no-repeat;
-    background-size: 277px 366px, 308px 407px, cover;
-    background-position: top 68% right 10.5%, top 51% right 19.5%, top center;
+    background-size: cover;
+    background-position: top center;
 
     @include vp-1199 {
-      background-size: 236px 312px, 266px 351px, cover;
-      background-position: top 76% right 30%, top 73% right 68%, top center;
+      background-size: cover;
+      background-position: top center;
     }
 
     @include vp-767 {
       background-image: image-set("../img/hero/hero-2-desktop.jpg" type("image/jpg"),
           "../img/hero/hero-2-desktop@2x.jpg" type("image/jpg"),
           "../img/hero/hero-2-desktop.webp" type("image/webp"),
-          "../img/hero/hero-2-desktop@2x.webp" type("image/webp")),
-        -webkit-image-set("../img/hero/hero-2-desktop.jpg" type("image/jpg"),
+          "../img/hero/hero-2-desktop@2x.webp" type("image/webp"));
+      background-image: -webkit-image-set("../img/hero/hero-2-desktop.jpg" type("image/jpg"),
           "../img/hero/hero-2-desktop@2x.jpg" type("image/jpg"),
           "../img/hero/hero-2-desktop.webp" type("image/webp"),
           "../img/hero/hero-2-desktop@2x.webp" type("image/webp"));
@@ -121,8 +103,9 @@
     background-image: image-set("../img/hero/hero-3-desktop.jpg" type("image/jpg"),
         "../img/hero/hero-3-desktop@2x.jpg" type("image/jpg"),
         "../img/hero/hero-3-desktop.webp" type("image/webp"),
-        "../img/hero/hero-3-desktop@2x.webp" type("image/webp")),
-      -webkit-image-set("../img/hero/hero-3-desktop.jpg" type("image/jpg"),
+        "../img/hero/hero-3-desktop@2x.webp" type("image/webp"));
+
+    background-image: -webkit-image-set("../img/hero/hero-3-desktop.jpg" type("image/jpg"),
         "../img/hero/hero-3-desktop@2x.jpg" type("image/jpg"),
         "../img/hero/hero-3-desktop.webp" type("image/webp"),
         "../img/hero/hero-3-desktop@2x.webp" type("image/webp"));
@@ -233,6 +216,46 @@
   }
 }
 
+.hero__photo {
+  position: absolute;
+  top: 0;
+  right: 0;
+
+  @include vp-767 {
+    display: none;
+  }
+
+  &--first {
+    top: 202px;
+    right: 222px;
+
+    @include vp-1199 {
+      top: 490px;
+      right: 339px;
+
+      img {
+        width: 266px;
+        height: 351px;
+      }
+    }
+  }
+
+  &--second {
+    top: 295px;
+    right: 120px;
+
+    @include vp-1199 {
+      top: 543px;
+      right: 163px;
+
+      img {
+        width: 236px;
+        height: 312px;
+      }
+    }
+  }
+}
+
 .hero__audio-wrapper {
   position: absolute;
   top: 301px;
@@ -269,7 +292,7 @@
 
   @include hover-focus {
     color: $color-resolution-blue;
-    background-color: transparent;
+    background-color: $color-default-white;
     outline: 1px solid $color-resolution-blue;
     outline-offset: 1px;
   }
@@ -293,7 +316,15 @@
 
   @include vp-767 {
     margin-bottom: 0;
-    max-width: 180px;
+    min-width: 100%;
+    // width: 100%;
+    padding: 18px 0;
+  }
+
+  @include vp-374 {
+    margin-bottom: 0;
+    min-width: 160px;
+    // width: 100%;
     padding: 18px 0;
   }
 
@@ -360,6 +391,7 @@
   background-position: center center;
   border-radius: 50%;
   outline: none;
+  cursor: pointer;
 
   @include hover-focus {
     background-image: url("../img/sprite/icon-play-hf.svg");
@@ -399,19 +431,23 @@
 }
 
 .swiper__pagination {
-  text-align: right;
-  padding-right: 113px;
+  max-width: 1207px;
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
   position: absolute;
-  margin-bottom: 80px;
+  bottom: 97px;
+  left: 50%;
+  transform: translate(-50%);
 
   @include vp-1199 {
     padding-right: 0;
-    text-align: center;
-    margin-bottom: 73px;
+    justify-content: center;
+    bottom: 90px;
   }
 
   @include vp-767 {
-    margin-bottom: 23px;
+    bottom: 40px;
   }
 }
 

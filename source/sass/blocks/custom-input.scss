@@ -93,11 +93,12 @@
 
   &.is-valid {
     input {
-      border: 2px solid #22b259;
+      border: 2px solid #ffffff;
 
       &:focus,
       &:hover {
-        border: 2px solid rgba(#22b259, 0.5);
+        // border: 2px solid rgba(#22b259, 0.5);
+        border: 2px solid #ffffff;
       }
     }
   }

@@ -1,8 +1,12 @@
 .nav {
+  // outline: 2px solid rgba(255, 0, 0, 0.8);
+  // outline-offset: -2px;
   @include vp-1199 {
     display: flex;
     flex-basis: 100%;
     order: 3;
+    // height: 200px;
+    // margin-bottom: 20px;
   }
 }
 
@@ -82,14 +86,16 @@
     margin-top: 50px;
     flex-direction: column;
     width: 100%;
-    min-width: 678px;
-    max-height: 296px;
+    max-width: 1199px;
+    // height: 296px;
+    height: 210px;
+
     overflow-y: auto;
     flex-wrap: nowrap;
   }
 
   @include vp-767 {
-    min-width: 290px;
+    // max-width: 290px;
     margin-top: 15px;
     margin-right: 0;
   }

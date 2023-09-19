@@ -1,37 +1,34 @@
 .form {
   margin: 0 auto;
-  max-width: 1440px;
   background-color: #20410f;
   background-image: image-set("../img/form/bg-form-desktop.jpg" type("image/jpg"),
       "../img/form/bg-form-desktop@2x.jpg" type("image/jpg"),
       "../img/form/bg-form-desktop.webp" type("image/webp"),
-      "../img/form/bg-form-desktop@2x.webp" type("image/webp")),
-    -webkit-image-set("../img/form/bg-form-desktop.jpg" type("image/jpg"),
+      "../img/form/bg-form-desktop@2x.webp" type("image/webp"));
+  background-image: -webkit-image-set("../img/form/bg-form-desktop.jpg" type("image/jpg"),
       "../img/form/bg-form-desktop@2x.jpg" type("image/jpg"),
       "../img/form/bg-form-desktop.webp" type("image/webp"),
       "../img/form/bg-form-desktop@2x.webp" type("image/webp"));
   background-size: cover;
-  background-position: top center;
+  background-position: center;
 
   @include vp-1199 {
-    max-width: 1199px;
     background-image: image-set("../img/form/bg-form-tablet.jpg" type("image/jpg"),
         "../img/form/bg-form-tablet@2x.jpg" type("image/jpg"),
         "../img/form/bg-form-tablet.webp" type("image/webp"),
-        "../img/form/bg-form-tablet@2x.webp" type("image/webp")),
-      -webkit-image-set("../img/form/bg-form-tablet.jpg" type("image/jpg"),
+        "../img/form/bg-form-tablet@2x.webp" type("image/webp"));
+    background-image: -webkit-image-set("../img/form/bg-form-tablet.jpg" type("image/jpg"),
         "../img/form/bg-form-tablet@2x.jpg" type("image/jpg"),
         "../img/form/bg-form-tablet.webp" type("image/webp"),
         "../img/form/bg-form-tablet@2x.webp" type("image/webp"));
   }
 
   @include vp-767 {
-    min-width: 320px;
     background-image: image-set("../img/form/bg-form-mobile.jpg" type("image/jpg"),
         "../img/form/bg-form-mobile@2x.jpg" type("image/jpg"),
         "../img/form/bg-form-mobile.webp" type("image/webp"),
-        "../img/form/bg-form-mobile@2x.webp" type("image/webp")),
-      -webkit-image-set("../img/form/bg-form-mobile.jpg" type("image/jpg"),
+        "../img/form/bg-form-mobile@2x.webp" type("image/webp"));
+    background-image: -webkit-image-set("../img/form/bg-form-mobile.jpg" type("image/jpg"),
         "../img/form/bg-form-mobile@2x.jpg" type("image/jpg"),
         "../img/form/bg-form-mobile.webp" type("image/webp"),
         "../img/form/bg-form-mobile@2x.webp" type("image/webp"));
@@ -86,7 +83,7 @@
 
     @include vp-767 {
       @include text-xsmall;
-      margin-bottom: 26px;
+      margin-bottom: 24px;
     }
   }
 }
@@ -129,7 +126,7 @@
 
     @include hover-focus {
       border: 1px solid $color-resolution-blue;
-      background-color: transparent;
+      background-color: $color-default-white;
       color: $color-resolution-blue;
       outline: none;
     }

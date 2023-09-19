@@ -54,10 +54,11 @@
 .feedback__wrapper {
   max-width: 1440px;
   margin: 0 auto;
-  padding: 0 0 70px 110px;
+  padding: 0 0 48px 90px;
+  overflow: hidden;
 
   @include vp-1199 {
-    padding: 0 0 0 35px;
+    padding: 0 0 0 15px;
   }
 
   @include vp-767 {
@@ -66,40 +67,64 @@
 }
 
 .feedback__swiper {
-  max-width: 1440px;
-  padding: 0 0 10px 10px;
-  margin: 0 auto;
+  // outline: 2px solid rgba(255, 0, 0, 0.8);
+  // outline-offset: -2px;
+
+  width: 860px;
+  // max-width: 1440px;
+  // padding: 0 0px 10px 10px;
+  padding: 30px;
+  margin: 0;
   margin-top: -13px;
+
+
   display: flex;
   flex-direction: column;
   align-items: stretch;
-  width: 100%;
-  height: 100%;
+  // width: 100%;
+  // height: 100%;
+  height: auto;
+  overflow: visible;
 
+  @include vp-1199 {
+    width: 620px;
+  }
 
   @include vp-767 {
-    max-width: 300px;
+    padding: 0 5px 10px 5px;
+    width: 100%;
+
+    // max-width: 300px;
+    // max-width: 100%;
   }
 }
 
+
 .feedback__slide {
-  padding: 20px 40px 20px 20px;
+  padding: 19px 40px 20px 20px;
   display: flex;
   box-shadow: 0 0 15px 0 rgba(28, 51, 116, 0.1);
-  min-width: 790px;
-  height: 293px;
-  overflow-y: auto;
-  overflow-x: clip;
+  max-width: 790px;
+  height: auto;
+
+  // height: 293px;
+  // overflow-y: auto;
+  // overflow-x: clip;
+
 
   @include vp-1199 {
-    min-width: 560px;
+    max-width: 560px;
   }
 
   @include vp-767 {
-    padding: 20px 18px 20px 20px;
+    padding: 17px 23px 20px 25px;
     flex-direction: column;
-    min-width: 290px;
-    height: 468px;
+    // min-width: 290px;
+    // width: 100%;
+
+    align-items: stretch;
+    // max-width: 100%;
+    // height: 468px;
   }
 
   p {
@@ -120,28 +145,33 @@
   }
 }
 
+
 .feedback__photo {
+
   margin-right: 30px;
   width: 100%;
   height: 100%;
-  max-width: 258px;
+  // max-width: 258px;
   display: flex;
   align-items: flex-start;
-
+  flex-basis: content;
 
   @include vp-1199 {
-    max-width: 186px;
+    min-width: 186px;
   }
 
   @include vp-767 {
-    width: 100%;
-    height: 100%;
+    display: block;
+    margin-right: 0;
+  }
+
+  @include vp-374 {
     max-width: 250px;
     max-height: 169px;
   }
 
   img {
-
+    display: block;
     padding: 0;
     margin: 0;
     width: 100%;
@@ -158,6 +188,8 @@
 
   @include vp-1199 {
     padding: 3px 0 18px;
+    min-height: 230px;
+    align-self: flex-start;
   }
 
   @include vp-767 {
@@ -209,16 +241,22 @@
   justify-content: flex-end;
   align-items: flex-end;
 
-  margin-bottom: 27px;
+  max-width: 1440px;
+  margin-bottom: 11px;
   padding-right: 120px;
+  padding-left: 30px;
+
 
   @include vp-1199 {
-    margin-bottom: 27px;
+    margin-bottom: 10px;
     padding-right: 45px;
+    padding-left: 30px;
   }
 
   @include vp-767 {
-    padding-right: 0;
+    margin-bottom: 46px;
+    // padding-right: 0;
+    padding: 0 10px;
   }
 
   h2 {
@@ -257,6 +295,9 @@
   align-self: flex-start;
   cursor: pointer;
 
+  @include vp-767 {
+    margin-top: 4px;
+  }
 
   &--prev {
     background-image: url("../img/sprite/icon-arrow.svg");
@@ -267,7 +308,7 @@
       outline: none;
     }
 
-    @include active {
+    &:active {
       background-image: url("../img/sprite/icon-arrow-active.svg");
     }
 
@@ -285,7 +326,7 @@
       outline: none;
     }
 
-    @include active {
+    &:active {
       background-image: url("../img/sprite/icon-arrow-active.svg");
     }
 

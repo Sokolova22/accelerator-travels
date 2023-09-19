@@ -20,7 +20,7 @@
 
     @include vp-1199 {
       margin-left: 45px;
-      margin-bottom: 26px;
+      margin-bottom: 27px;
     }
 
     @include vp-767 {
@@ -44,62 +44,88 @@
 
 .gallery__swiper {
   max-width: 1440px;
+  margin: 0 auto;
+  overflow: hidden;
   display: flex;
   flex-direction: column;
-  justify-content: flex-end;
-  align-items: flex-end;
-  min-height: 539px;
+  // justify-content: flex-end;
+  // align-items: flex-end;
+  // min-height: 539px;
 
   @include vp-1199 {
-    justify-content: flex-start;
-    align-items: flex-start;
-    min-height: 550px;
+    // justify-content: flex-start;
+    // align-items: flex-start;
+    // min-height: 550px;
   }
 
   @include vp-767 {
-    min-height: 377px;
+    // min-height: 377px;
   }
 
   @include vp-374 {
-    height: 100%;
-    min-height: 390px;
+    // height: 100%;
+    // min-height: 390px;
   }
 }
 
 .gallery__swiper-wrapper {
-  height: 100%;
-  max-height: 449px;
-  display: flex;
+  // height: 100%;
+  // max-height: 449px;
+  // display: flex;
 }
 
 .gallery__slide {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  align-items: stretch;
-  width: auto;
-  height: auto;
+  display: grid;
+  grid-template-columns: auto auto;
+  // grid-auto-flow: dense;
+  gap: 6px;
+  width: 578px;
+  margin-right: 6px;
+  height: 449px;
+  // display: flex;
+  // flex-direction: column;
+  // justify-content: space-between;
+  // // align-items: stretch;
+  // width: min-content;
+  // height: auto;
 
 
   @include vp-767 {
-    max-width: 172px;
-    max-height: 260px;
+    width: 320px;
+    height: 260px;
+    gap: 3px;
+    overflow: hidden;
+    margin-right: 3px;
+
+    // max-width: 172px;
+    // max-height: 260px;
   }
 
   img {
+    display: block;
     padding: 0;
     margin: 0;
     width: 100%;
     height: 100%;
     object-fit: cover;
-
-    @include vp-767 {
-      max-width: min-content;
-      max-height: 260px;
-    }
   }
 }
 
+.gallery__slide picture:first-child {
+  grid-row: span 2;
+  // @include vp-767 {
+  //   width: 159px;
+  //   height: 259px;
+  // }
+
+  // img {
+  // display: block;
+  // @include vp-767 {
+  //   width: 159px;
+  //   height: 259px;
+  // }
+  // }
+}
 
 .gallery__button-box {
   position: relative;
@@ -175,7 +201,7 @@
       outline: none;
     }
 
-    @include active {
+    &:active {
       background-image: url("../img/sprite/icon-arrow-active.svg");
     }
 
@@ -193,7 +219,7 @@
       outline: none;
     }
 
-    @include active {
+    &:active {
       background-image: url("../img/sprite/icon-arrow-active.svg");
     }
 

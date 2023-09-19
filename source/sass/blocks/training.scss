@@ -7,15 +7,15 @@
 
 .training__wrapper {
   max-width: 1440px;
-  padding: 0 120px 88px;
+  padding: 0 100px 88px;
   margin: 0 auto;
 
   @include vp-1199 {
-    padding: 0 45px 72px;
+    padding: 0 35px 72px;
   }
 
   @include vp-767 {
-    padding: 0 15px 70px;
+    padding: 0 5px 70px;
   }
 
   h2 {
@@ -25,14 +25,16 @@
     @include heading-h3;
     color: $color-primary-elephant;
     padding: 0;
-    margin: 23px 0 32px;
+    margin: 23px 0 32px 20px;
 
     @include vp-1199 {
       margin-bottom: 21px;
+      margin-left: 10px;
     }
 
     @include vp-767 {
       margin-bottom: 16px;
+      // margin-left: 0;
 
       width: min-content;
     }
@@ -52,32 +54,31 @@
 
   h5 {
     padding: 0;
-    margin: 0;
-    margin-bottom: 21px;
-    margin-right: auto;
+    margin: 0 auto 21px 20px;
 
     @include heading-h5;
 
     @include vp-1199 {
       margin-bottom: 21px;
+      margin-left: 10px;
     }
 
     @include vp-767 {
       margin-bottom: 16px;
+      margin-left: 14px;
     }
   }
 
   p {
     padding: 0;
-    margin: 0;
-    margin-bottom: 56px;
-    margin-right: 380px;
+    margin: 0 380px 56px 20px;
 
     @include text-regular;
 
     @include vp-1199 {
       margin-bottom: 55px;
       margin-right: 93px;
+      margin-left: 10px;
     }
 
     @include vp-767 {
@@ -132,7 +133,7 @@
       outline: none;
     }
 
-    @include active {
+    &:active {
       background-image: url("../img/sprite/icon-arrow-active.svg");
     }
 
@@ -150,7 +151,7 @@
       outline: none;
     }
 
-    @include active {
+    &:active {
       background-image: url("../img/sprite/icon-arrow-active.svg");
     }
 
@@ -176,12 +177,16 @@
 }
 
 .training__swiper {
+  // outline: 2px solid rgba(255, 0, 0, 0.8);
+  // outline-offset: -2px;
   position: relative;
+  max-width: 1220px;
   width: 100%;
-  max-width: 1200px;
-  max-height: 480px;
+  padding: 0 10px 10px;
+  height: auto;
+  // max-height: 480px;
   margin-top: -7px;
-  margin-bottom: 51px;
+  margin-bottom: 41px;
   cursor: auto;
   display: flex;
   flex-direction: column;
@@ -189,25 +194,30 @@
   align-items: stretch;
 
   @include vp-1199 {
-    min-width: 678px;
-    padding-bottom: 5px;
-    margin-bottom: 42px;
+    min-width: 688px;
+    // height: 100%;
+    padding-bottom: 10px;
+    margin-bottom: 29px;
   }
 
   @include vp-767 {
-    margin-bottom: 34px;
+    margin-bottom: 17px;
 
     min-width: 290px;
   }
 }
 
 .training__swiper-wrapper {
+  display: flex;
   align-items: stretch;
+  height: auto;
   margin: 0 auto;
 }
 
 .training__slide {
   height: auto;
+  // height: 100%;
+  // display: flex;
   align-items: stretch;
   box-shadow: 0 0 15px 0 rgba(28, 51, 116, 0.1);
 }
@@ -215,10 +225,11 @@
 
 .training__slide-container {
   padding: 20px;
-  max-height: 426px;
-  overflow-y: auto;
+  // max-height: 426px;
+  // overflow-y: auto;
 
   @include vp-1199 {
+    // max-height: 100%;
     padding: 24px 15px 20px;
   }
 
@@ -320,7 +331,7 @@
   max-width: 1440px;
   position: relative;
   margin: 0 auto;
-  padding: 0;
+  padding: 0 20px;
   list-style-type: none;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
@@ -333,15 +344,16 @@
     max-width: 678px;
     margin: 0;
     grid-template-columns: repeat(2, 2fr);
+    padding: 0 10px;
     padding-bottom: 0;
     row-gap: 53px;
-    column-gap: 30px;
+    column-gap: 49px;
     grid-auto-flow: column;
     border-bottom: none;
   }
 
   @include vp-767 {
-    padding: 0;
+    padding: 0 14px;
     display: flex;
     flex-direction: column;
     gap: 0;
@@ -349,21 +361,6 @@
     align-items: normal;
   }
 }
-
-// .training__list::after {
-//   content: "";
-//   position: absolute;
-//   width: 100%;
-//   height: 1px;
-
-//   bottom: 0;
-//   left: 0;
-//   background-color: rgba(2, 101, 193, 0.2);
-
-//   @include vp-1199 {
-//     display: none;
-//   }
-// }
 
 .training__item {
   position: relative;
@@ -443,7 +440,7 @@
     bottom: 0;
     left: 0;
 
-    width: 110%;
+    width: 120%;
     height: 1px;
 
     background-color: rgba(2, 101, 193, 0.2);
@@ -486,7 +483,7 @@
   @include vp-1199 {
     content: "";
     position: absolute;
-    width: 110%;
+    width: 120%;
     height: 1px;
     background: $color-navy-blue;
     opacity: 0.2;

@@ -2,11 +2,14 @@
   margin: 0;
   padding: 0;
   margin-top: 16px;
-  margin-bottom: 20px;
+  margin-bottom: 14px;
   list-style: none;
   display: flex;
+  flex-wrap: wrap;
   justify-content: center;
+
   flex-basis: 100%;
+  max-width: 150px;
 
   @include vp-1199 {
     margin-top: 27px;
