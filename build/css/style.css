@@ -2306,16 +2306,18 @@ button,
 
 .hero__slide--01 {
   background-color: #6288b0;
-  background-image: image-set("../img/hero/hero-1-desktop.jpg" type("image/jpg"), "../img/hero/hero-1-desktop@2x.jpg" type("image/jpg"), "../img/hero/hero-1-desktop.webp" type("image/webp"), "../img/hero/hero-1-desktop@2x.webp" type("image/webp"));
-  background-image: -webkit-image-set("../img/hero/hero-1-desktop.jpg" type("image/jpg"), "../img/hero/hero-1-desktop@2x.jpg" type("image/jpg"), "../img/hero/hero-1-desktop.webp" type("image/webp"), "../img/hero/hero-1-desktop@2x.webp" type("image/webp"));
+  background-image: -webkit-image-set(url("../img/hero/hero-1-desktop.jpg") 1x, url("../img/hero/hero-1-desktop@2x.jpg") 2x, url("../img/hero/hero-1-desktop.webp") 1x, url("../img/hero/hero-1-desktop@2x.webp") 2x);
+  background-image: -webkit-image-set(url("../img/hero/hero-1-desktop.jpg") type("image/jpg"), url("../img/hero/hero-1-desktop@2x.jpg") type("image/jpg"), url("../img/hero/hero-1-desktop.webp") type("image/webp"), url("../img/hero/hero-1-desktop@2x.webp") type("image/webp"));
+  background-image: image-set(url("../img/hero/hero-1-desktop.jpg") type("image/jpg"), url("../img/hero/hero-1-desktop@2x.jpg") type("image/jpg"), url("../img/hero/hero-1-desktop.webp") type("image/webp"), url("../img/hero/hero-1-desktop@2x.webp") type("image/webp"));
   background-size: cover;
   background-position: top center;
 }
 
 .hero__slide--02 {
   background-color: #6288b0;
-  background-image: image-set("../img/hero/hero-2-desktop.jpg" type("image/jpg"), "../img/hero/hero-2-desktop@2x.jpg" type("image/jpg"), "../img/hero/hero-2-desktop.webp" type("image/webp"), "../img/hero/hero-2-desktop@2x.webp" type("image/webp"));
-  background-image: -webkit-image-set("../img/hero/hero-2-desktop.jpg" type("image/jpg"), "../img/hero/hero-2-desktop@2x.jpg" type("image/jpg"), "../img/hero/hero-2-desktop.webp" type("image/webp"), "../img/hero/hero-2-desktop@2x.webp" type("image/webp"));
+  background-image: -webkit-image-set(url("../img/hero/hero-2-desktop.jpg") 1x, url("../img/hero/hero-2-desktop@2x.jpg") 2x, url("../img/hero/hero-2-desktop.webp") 1x, url("../img/hero/hero-2-desktop@2x.webp") 2x);
+  background-image: -webkit-image-set(url("../img/hero/hero-2-desktop.jpg") type("image/jpg"), url("../img/hero/hero-2-desktop@2x.jpg") type("image/jpg"), url("../img/hero/hero-2-desktop.webp") type("image/webp"), url("../img/hero/hero-2-desktop@2x.webp") type("image/webp"));
+  background-image: image-set(url("../img/hero/hero-2-desktop.jpg") type("image/jpg"), url("../img/hero/hero-2-desktop@2x.jpg") type("image/jpg"), url("../img/hero/hero-2-desktop.webp") type("image/webp"), url("../img/hero/hero-2-desktop@2x.webp") type("image/webp"));
   background-repeat: no-repeat;
   background-size: cover;
   background-position: top center;
@@ -2323,8 +2325,9 @@ button,
 
 .hero__slide--03 {
   background-color: #6288b0;
-  background-image: image-set("../img/hero/hero-3-desktop.jpg" type("image/jpg"), "../img/hero/hero-3-desktop@2x.jpg" type("image/jpg"), "../img/hero/hero-3-desktop.webp" type("image/webp"), "../img/hero/hero-3-desktop@2x.webp" type("image/webp"));
-  background-image: -webkit-image-set("../img/hero/hero-3-desktop.jpg" type("image/jpg"), "../img/hero/hero-3-desktop@2x.jpg" type("image/jpg"), "../img/hero/hero-3-desktop.webp" type("image/webp"), "../img/hero/hero-3-desktop@2x.webp" type("image/webp"));
+  background-image: -webkit-image-set(url("../img/hero/hero-3-desktop.jpg") 1x, url("../img/hero/hero-3-desktop@2x.jpg") 2x, url("../img/hero/hero-3-desktop.webp") 1x, url("../img/hero/hero-3-desktop@2x.webp") 2x);
+  background-image: -webkit-image-set(url("../img/hero/hero-3-desktop.jpg") type("image/jpg"), url("../img/hero/hero-3-desktop@2x.jpg") type("image/jpg"), url("../img/hero/hero-3-desktop.webp") type("image/webp"), url("../img/hero/hero-3-desktop@2x.webp") type("image/webp"));
+  background-image: image-set(url("../img/hero/hero-3-desktop.jpg") type("image/jpg"), url("../img/hero/hero-3-desktop@2x.jpg") type("image/jpg"), url("../img/hero/hero-3-desktop.webp") type("image/webp"), url("../img/hero/hero-3-desktop@2x.webp") type("image/webp"));
   background-repeat: no-repeat;
   background-size: cover;
   background-position: top center;
@@ -5609,8 +5612,9 @@ dd {
   }
 
   .hero__slide--02 {
-    background-image: image-set("../img/hero/hero-2-desktop.jpg" type("image/jpg"), "../img/hero/hero-2-desktop@2x.jpg" type("image/jpg"), "../img/hero/hero-2-desktop.webp" type("image/webp"), "../img/hero/hero-2-desktop@2x.webp" type("image/webp"));
-    background-image: -webkit-image-set("../img/hero/hero-2-desktop.jpg" type("image/jpg"), "../img/hero/hero-2-desktop@2x.jpg" type("image/jpg"), "../img/hero/hero-2-desktop.webp" type("image/webp"), "../img/hero/hero-2-desktop@2x.webp" type("image/webp"));
+    background-image: -webkit-image-set(url("../img/hero/hero-2-desktop.jpg") 1x, url("../img/hero/hero-2-desktop@2x.jpg") 2x, url("../img/hero/hero-2-desktop.webp") 1x, url("../img/hero/hero-2-desktop@2x.webp") 2x);
+    background-image: -webkit-image-set(url("../img/hero/hero-2-desktop.jpg") type("image/jpg"), url("../img/hero/hero-2-desktop@2x.jpg") type("image/jpg"), url("../img/hero/hero-2-desktop.webp") type("image/webp"), url("../img/hero/hero-2-desktop@2x.webp") type("image/webp"));
+    background-image: image-set(url("../img/hero/hero-2-desktop.jpg") type("image/jpg"), url("../img/hero/hero-2-desktop@2x.jpg") type("image/jpg"), url("../img/hero/hero-2-desktop.webp") type("image/webp"), url("../img/hero/hero-2-desktop@2x.webp") type("image/webp"));
     background-repeat: no-repeat;
     background-size: cover;
     background-position: top center;
