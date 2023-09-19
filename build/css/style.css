@@ -5019,7 +5019,7 @@ dd {
 
   .training__wrapper h5 {
     margin-bottom: 21px;
-    margin-left: 0;
+    margin-left: 11px;
   }
 
   .training__wrapper p {
@@ -5039,6 +5039,7 @@ dd {
 
   .training__button-box h5 {
     margin-top: 18px;
+    margin-left: 0;
   }
 
   .training__swiper-button {
@@ -5684,7 +5685,7 @@ dd {
     -webkit-box-align: start;
     -ms-flex-align: start;
     align-items: flex-start;
-    padding: 33px 20px;
+    padding: 32px 20px;
   }
 
   .footer__logo svg {
@@ -6243,7 +6244,7 @@ dd {
   }
 
   .contacts__wrapper p {
-    margin-bottom: 32px;
+    margin-bottom: 31px;
     -ms-flex-preferred-size: 99%;
     flex-basis: 99%;
   }
