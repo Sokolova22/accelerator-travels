@@ -296,6 +296,7 @@
   text-align: center;
   background-color: $color-navy-blue;
   cursor: pointer;
+  user-select: none;
 
   &:hover,
   &:focus-visible {

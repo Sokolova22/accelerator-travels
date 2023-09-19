@@ -2435,6 +2435,10 @@ button,
   text-align: center;
   background-color: #0266c1;
   cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
 }
 
 .hero__button:hover,
@@ -4163,6 +4167,10 @@ dd {
   color: #ffffff;
   background-color: #0266c1;
   cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
 }
 
 .form__container button:hover,

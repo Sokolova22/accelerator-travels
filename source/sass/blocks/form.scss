@@ -113,6 +113,7 @@
     color: $color-default-white;
     background-color: $color-navy-blue;
     cursor: pointer;
+    user-select: none;
 
     @include vp-1199 {
       min-width: 266px;
