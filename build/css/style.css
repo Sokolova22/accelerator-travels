@@ -5142,6 +5142,7 @@ dd {
     line-height: 22px;
     margin-bottom: 0;
     margin-right: 0;
+    margin-left: 0;
   }
 
   .training__item svg {
@@ -5976,6 +5977,7 @@ dd {
     font-size: 12px;
     line-height: 16px;
     margin-bottom: 0;
+    margin-left: 0;
   }
 
   .training__item svg {
@@ -6041,7 +6043,7 @@ dd {
     font-weight: 400;
     font-size: 16px;
     line-height: 24px;
-    margin-bottom: 21px;
+    margin-bottom: 41px;
   }
 
   .feedback__wrapper {
@@ -6057,7 +6059,7 @@ dd {
 
   .feedback__slide {
     max-width: 300px;
-    padding: 17px 23px 20px 25px;
+    padding: 17px 20px 20px 18px;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
     -ms-flex-direction: column;
@@ -6286,7 +6288,7 @@ dd {
   }
 
   .contacts__list {
-    margin-bottom: 20px;
+    margin-bottom: 2px;
   }
 
   .contacts__item p {
@@ -6462,7 +6464,7 @@ dd {
   }
 
   .about__wrapper {
-    padding: 0 45px 16px 0;
+    padding: 0 25px 16px 0;
   }
 
   .about__image {
