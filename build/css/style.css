@@ -5922,7 +5922,7 @@ dd {
   }
 
   .training__swiper {
-    margin-bottom: 26px;
+    margin-bottom: 15px;
     min-width: 290px;
   }
 
@@ -6327,7 +6327,7 @@ dd {
   }
 
   .contacts__item:not(:last-child) {
-    margin-bottom: 19px;
+    margin-bottom: 23px;
     margin-right: 0;
   }
 
