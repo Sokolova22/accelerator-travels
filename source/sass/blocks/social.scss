@@ -1,15 +1,16 @@
 .social {
+  position: relative;
   margin: 0;
   padding: 0;
   margin-top: 16px;
-  margin-bottom: 14px;
+  margin-bottom: 4px;
   list-style: none;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
 
   flex-basis: 100%;
-  max-width: 150px;
+  min-width: 150px;
 
   @include vp-1199 {
     margin-top: 27px;
@@ -23,6 +24,7 @@
 }
 
 .social__item {
+  margin-bottom: 10px;
   &:not(:last-child) {
     margin-right: 15px;
   }

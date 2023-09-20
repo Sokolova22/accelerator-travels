@@ -185,12 +185,13 @@ window.addEventListener('DOMContentLoaded', () => {
 });
 
 export const swiperFeedback = new Swiper('.feedback__swiper', {
+  // autoHeight: true,
   simulateTouch: false,
 
   breakpoints: {
     320: {
       slidesPerView: 1,
-
+      spaceBetween: 20,
     },
 
     768: {

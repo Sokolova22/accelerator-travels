@@ -1,10 +1,14 @@
 .contacts__wrapper {
+  position: relative;
   max-width: 1440px;
   margin: 0 auto;
   padding: 82px 120px 100px;
   color: $color-primary-elephant;
   display: flex;
   flex-wrap: wrap;
+  min-height: 300px;
+  height: 100%;
+  align-items: flex-start;
 
   @media (min-width: 1199px) and (max-width: 1230px) {
     padding: 82px 45px 100px;
@@ -97,17 +101,20 @@
     flex-direction: row;
     flex-wrap: wrap;
     flex-basis: 100%;
-    margin-bottom: 36px;
+    margin-bottom: 29px;
   }
 
   @include vp-767 {
-    margin-bottom: 30px;
+    margin-bottom: 20px;
   }
 }
 
 .contacts__item {
   position: relative;
   padding-left: 56px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
 
   @include vp-1199 {
     padding-left: 35px;
@@ -122,22 +129,20 @@
   }
 
   p {
+
     padding: 0;
     margin: 0;
-    grid-column: 2 / 3;
-    grid-row: 2 / 3;
-    width: max-content;
-
+    margin-bottom: 10px;
     @include text-regular;
 
     @include vp-1199 {
       @include text-small;
-      margin-bottom: 0;
+      // margin-bottom: 0;
     }
 
     @include vp-767 {
       @include text-regular;
-      margin-bottom: 0;
+      // margin-bottom: 0;
       width: 66%;
     }
   }
@@ -156,6 +161,7 @@
   a {
     padding: 0;
     margin: 0;
+    margin-bottom: 10px;
     width: max-content;
 
     @include text-regular;
@@ -171,7 +177,7 @@
 }
 
 .contacts__item:not(:last-child) {
-  margin-bottom: 35px;
+  margin-bottom: 25px;
 
   @include vp-1199 {
     margin-bottom: 0;
@@ -179,12 +185,13 @@
   }
 
   @include vp-767 {
-    margin-bottom: 29px;
+    margin-bottom: 19px;
     margin-right: 0;
   }
 }
 
 .contacts__link {
+
   &:hover,
   &:focus-visible {
     color: $color-resolution-blue;
@@ -202,14 +209,19 @@
 }
 
 .contacts__map-wrapper {
-  position: relative;
-  margin-top: -100px;
+  position: absolute;
+
+  top: 157px;
+  right: 120px;
+
   margin-left: auto;
   max-width: 585px;
   max-height: 324px;
 
   @include vp-1199 {
-    margin-top: 0;
+    position: relative;
+    top: 0;
+    right: 0;
     margin-left: 0;
     max-width: 1199px;
     width: 100%;
@@ -242,15 +254,23 @@
   }
 
   img {
+    display: block;
     width: 100%;
     height: 100%;
     margin: 0;
     padding: 0;
     object-fit: cover;
+
+    @include vp-1199 {
+      max-width: 1199px;
+      width: 100%;
+      max-height: 340px;
+    }
   }
 }
 
 .contacts__map {
+
   position: absolute;
   z-index: 5;
   top: 0;
@@ -265,6 +285,7 @@
     width: 100%;
     max-height: 340px;
   }
+
 
   iframe {
     width: 100%;

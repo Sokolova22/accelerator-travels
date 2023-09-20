@@ -277,6 +277,7 @@
     margin-bottom: 10px;
   }
 
+
   svg {
     position: absolute;
     top: 0;
@@ -300,9 +301,15 @@
     flex-basis: 50%;
     margin: 0;
     margin-bottom: 4px;
+    margin-left: 10px;
     max-width: 97px;
     // min-width: min-content;
   }
+
+  @media (max-width: 335px) {
+    margin-left: 0px;
+  }
+
 
   svg {
     position: absolute;
