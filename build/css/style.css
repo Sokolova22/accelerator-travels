@@ -2177,6 +2177,9 @@ button,
   order: 2;
   color: #ffffff;
   margin-left: auto;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 10px;
   font-family: "Montserrat", "Arial", sans-serif;
   font-weight: 600;
   font-size: 18px;
@@ -2675,6 +2678,9 @@ button,
   line-height: 18px;
   color: #2d383f;
   margin-left: auto;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 10px;
 }
 
 .footer__phone:hover,
