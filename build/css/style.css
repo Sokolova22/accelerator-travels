@@ -3555,17 +3555,6 @@ dd {
   overflow: visible;
 }
 
-.feedback__swiper-wrapper {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: stretch;
-  -ms-flex-align: stretch;
-  align-items: stretch;
-  height: auto;
-  margin: 0 auto;
-}
-
 .feedback__slide {
   padding: 19px 40px 20px 20px;
   display: -webkit-box;
@@ -6060,7 +6049,8 @@ dd {
   }
 
   .feedback__swiper {
-    margin: 0 auto;
+    margin-right: auto;
+    margin-left: 45px;
     padding: 0 5px 10px 5px;
     width: 300px;
   }
@@ -6478,6 +6468,12 @@ dd {
   .about__image {
     margin-top: -76px;
     margin-bottom: 53px;
+  }
+
+  .feedback__swiper {
+    margin-right: 0;
+    margin-left: 0;
+    margin: 0 auto;
   }
 }
 

@@ -88,19 +88,28 @@
   }
 
   @include vp-767 {
-    margin: 0 auto;
+    margin-right: auto;
+    margin-left: 45px;
+    // margin: 0 auto;
     padding: 0 5px 10px 5px;
 
     width: 300px;
   }
+  @include vp-374 {
+
+    margin-right: 0;
+    margin-left: 0;
+    margin: 0 auto;
+
+  }
 }
 
-.feedback__swiper-wrapper {
-  display: flex;
-  align-items: stretch;
-  height: auto;
-  margin: 0 auto;
-}
+// .feedback__swiper-wrapper {
+//   display: flex;
+//   align-items: stretch;
+//   height: auto;
+//   // margin: 0 auto;
+// }
 
 .feedback__slide {
   padding: 19px 40px 20px 20px;
