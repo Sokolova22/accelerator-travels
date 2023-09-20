@@ -5178,7 +5178,7 @@ dd {
   }
 
   .about__wrapper {
-    padding: 0 45px 67px 0;
+    padding: 0 45px 73px 0;
   }
 
   .about__image {
@@ -6298,7 +6298,7 @@ dd {
   }
 
   .contacts__list {
-    margin-bottom: 2px;
+    margin-bottom: 0px;
   }
 
   .contacts__item p {
