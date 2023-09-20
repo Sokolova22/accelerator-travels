@@ -12,11 +12,11 @@
   justify-content: center;
   align-items: center;
   flex-wrap: wrap;
-  padding: 25px 120px 30px;
+  padding: 28px 120px 23px;
   text-align: center;
 
   @media (min-width: 1199px) and (max-width: 1350px) {
-    padding: 25px 50px 30px;
+    padding: 28px 50px 23px;
   }
 
   @include vp-1199 {

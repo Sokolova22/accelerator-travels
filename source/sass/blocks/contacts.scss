@@ -2,7 +2,7 @@
   position: relative;
   max-width: 1440px;
   margin: 0 auto;
-  padding: 82px 120px 100px;
+  padding: 82px 120px 93px;
   color: $color-primary-elephant;
   display: flex;
   flex-wrap: wrap;
@@ -11,7 +11,7 @@
   align-items: flex-start;
 
   @media (min-width: 1199px) and (max-width: 1230px) {
-    padding: 82px 45px 100px;
+    padding: 82px 45px 93px;
   }
 
   @include vp-1199 {

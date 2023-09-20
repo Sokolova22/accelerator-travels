@@ -2590,7 +2590,7 @@ button,
   align-items: center;
   -ms-flex-wrap: wrap;
   flex-wrap: wrap;
-  padding: 25px 120px 30px;
+  padding: 28px 120px 23px;
   text-align: center;
 }
 
@@ -3436,7 +3436,7 @@ dd {
   max-width: 1440px;
   margin: 0 auto;
   z-index: 2;
-  padding: 43px 120px 77px 0;
+  padding: 43px 120px 106px 0;
 }
 
 .about__image {
@@ -4312,7 +4312,7 @@ dd {
   position: relative;
   max-width: 1440px;
   margin: 0 auto;
-  padding: 82px 120px 100px;
+  padding: 82px 120px 93px;
   color: #2d383f;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -6508,7 +6508,7 @@ dd {
 
 @media (min-width: 1199px) and (max-width: 1350px) {
   .footer__wrapper {
-    padding: 25px 50px 30px;
+    padding: 28px 50px 23px;
   }
 }
 
@@ -6518,7 +6518,7 @@ dd {
   }
 
   .about__wrapper {
-    padding: 43px 15px 77px 0;
+    padding: 43px 15px 106px 0;
   }
 }
 
@@ -6571,7 +6571,7 @@ dd {
 
 @media (min-width: 1199px) and (max-width: 1230px) {
   .contacts__wrapper {
-    padding: 82px 45px 100px;
+    padding: 82px 45px 93px;
   }
 }
 
