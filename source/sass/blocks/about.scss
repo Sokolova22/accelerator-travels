@@ -50,7 +50,7 @@
   }
 
   @include vp-374 {
-    padding: 0 25px 16px 0;
+    padding: 0 15px 57px 0;
   }
 }
 
@@ -140,16 +140,26 @@
     @include text-small;
     padding: 0;
     margin: 0;
-    margin-bottom: 30px;
-
-    @include vp-1199 {
-      margin-bottom: 6px;
-    }
 
     @include vp-767 {
-      @include text-regular;
 
-      margin-bottom: 41px;
+      @include text-regular;
+    }
+
+    &:not(:last-child) {
+
+      margin-bottom: 30px;
+
+      @include vp-1199 {
+        margin-bottom: 6px;
+      }
+
+      @include vp-767 {
+        @include text-regular;
+
+        margin-bottom: 41px;
+      }
     }
   }
+
 }
